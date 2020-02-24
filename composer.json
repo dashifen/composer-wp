@@ -1,0 +1,14 @@
+{
+    "name": "dashifen/composer-wp",
+    "description": "Another attempt at understanding why this isn't working",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Dashifen Kees",
+            "email": "dashifen@dashifen.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
