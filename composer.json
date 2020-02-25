@@ -1,14 +1,59 @@
 {
-    "name": "dashifen/composer-wp",
-    "description": "Another attempt at understanding why this isn't working",
-    "type": "project",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "David Dashifen Kees",
-            "email": "dashifen@dashifen.com"
+  "name": "dashifen/composer-wp",
+  "description": "Another attempt at understanding why this isn't working",
+  "minimum-stability": "stable",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Dashifen Kees",
+      "email": "dashifen@dashifen.com",
+      "role": "developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "deps/vendor",
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "extra": {
+    "wordpress-install-dir": "web",
+    "installer-paths": {
+      "deps/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "deps/themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/advanced-custom-fields-pro",
+        "version": "5.8.7",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t={%version}"
+        },
+        "require": {
+          "composer/installers": "^1.4",
+          "ffraenz/private-composer-installer": "^2.0"
         }
-    ],
-    "minimum-stability": "stable",
-    "require": {}
+      }
+    }
+  ],
+  "require": {
+    "php": ">=7.3",
+    "advanced-custom-fields/advanced-custom-fields-pro": "*",
+    "johnpbloch/wordpress": ">=5.3",
+    "timber/timber": "^1.15",
+    "wpackagist-theme/twentytwenty": "^1"
+  }
 }

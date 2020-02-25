@@ -1,1 +1,29 @@
+### Dash's IDE
+
 .idea
+
+### Dependencies
+
+deps/vendor
+deps/uploads
+
+# these three rules hide everything under the plugins, mu-plugins, and themes
+# folders without hiding those folders themselves.  that way, any work we do
+# in them, can be un-ignored using a ! rule further below.
+
+deps/plugins/*
+deps/mu-plugins/*
+deps/themes/*
+
+!deps/themes/dashifen2020/
+
+### WordPress
+
+web
+wp-config.php
+
+### Config Files
+
+.env
+.env.js
+.npmrc
