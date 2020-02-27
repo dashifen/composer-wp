@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ed07b627dcf53cc0e4baed6913282bcd",
+    "content-hash": "909fa01f901d1233ea42c5f668a59b42",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -254,6 +254,285 @@
             "time": "2020-02-07T10:39:20+00:00"
         },
         {
+            "name": "dashifen/collection",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dashifen/collection.git",
+                "reference": "03ba9bddc0ce0cae3e6e38148ae83f18b1c53a02"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dashifen/collection/zipball/03ba9bddc0ce0cae3e6e38148ae83f18b1c53a02",
+                "reference": "03ba9bddc0ce0cae3e6e38148ae83f18b1c53a02",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Dashifen\\Collection\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Dashifen Kees",
+                    "email": "dashifen@dashifen.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "An abstract object from which concrete collections can be built.",
+            "time": "2020-01-11T11:15:44+00:00"
+        },
+        {
+            "name": "dashifen/dashifen2020",
+            "version": "0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dashifen/dashifen2020.git",
+                "reference": "96b39d9315d63f5a2a4353571b8e48d90a1f31c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dashifen/dashifen2020/zipball/96b39d9315d63f5a2a4353571b8e48d90a1f31c9",
+                "reference": "96b39d9315d63f5a2a4353571b8e48d90a1f31c9",
+                "shasum": ""
+            },
+            "require": {
+                "dashifen/collection": "^1",
+                "dashifen/wp-handler": "^9",
+                "dashifen/wp-templates": "^3",
+                "ext-json": "*",
+                "matto1990/lastfm-api": "^1.6",
+                "timber/timber": "^1.13"
+            },
+            "type": "wordpress-theme",
+            "autoload": {
+                "psr-4": {
+                    "Dashifen2020\\": "src"
+                }
+            },
+            "scripts": {
+                "post-update-cmd": [
+                    "composer dumpautoload --optimize"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Dashifen Kees",
+                    "email": "dashifen@dashifen.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "A 2020 theme for dashifen.com",
+            "support": {
+                "source": "https://github.com/dashifen/dashifen2020/tree/0.5.0",
+                "issues": "https://github.com/dashifen/dashifen2020/issues"
+            },
+            "time": "2020-02-27T19:52:02+00:00"
+        },
+        {
+            "name": "dashifen/exception",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dashifen/exception.git",
+                "reference": "e795e1d973e9f781eb3a8371b6299c852eef9bc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dashifen/exception/zipball/e795e1d973e9f781eb3a8371b6299c852eef9bc1",
+                "reference": "e795e1d973e9f781eb3a8371b6299c852eef9bc1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dashifen\\Exception\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Dashifen Kees",
+                    "email": "dashifen@dashifen.com",
+                    "homepage": "https://dashifen.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "a base class for exceptions in Dashifen's other work",
+            "time": "2019-12-12T14:26:49+00:00"
+        },
+        {
+            "name": "dashifen/repository",
+            "version": "2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dashifen/repository.git",
+                "reference": "2d3e0d1b9b96908c0aeed3a730123bd26eb9f344"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dashifen/repository/zipball/2d3e0d1b9b96908c0aeed3a730123bd26eb9f344",
+                "reference": "2d3e0d1b9b96908c0aeed3a730123bd26eb9f344",
+                "shasum": ""
+            },
+            "require": {
+                "dashifen/exception": "^1",
+                "ext-json": "*",
+                "php": ">=7.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dashifen\\Repository\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "WTFPL"
+            ],
+            "authors": [
+                {
+                    "name": "David Dashifen Kees",
+                    "email": "dashifen@dashifen.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "An object with read-only protected properties from which other objects can be extened.",
+            "time": "2020-01-24T18:43:36+00:00"
+        },
+        {
+            "name": "dashifen/transformer",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dashifen/transformer.git",
+                "reference": "5dc37a3cccd45531b17526063c34acfe8a14fa25"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dashifen/transformer/zipball/5dc37a3cccd45531b17526063c34acfe8a14fa25",
+                "reference": "5dc37a3cccd45531b17526063c34acfe8a14fa25",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Dashifen\\Transformer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Dashifen Kees",
+                    "email": "dashifen@dashifen.com"
+                }
+            ],
+            "description": "An interface and abstract class useful for the production of objects which transform data.",
+            "time": "2020-01-21T20:03:03+00:00"
+        },
+        {
+            "name": "dashifen/wp-handler",
+            "version": "9.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dashifen/wp-handler.git",
+                "reference": "b59b8eb9ddd879742e7710022764818e3fd7d9ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dashifen/wp-handler/zipball/b59b8eb9ddd879742e7710022764818e3fd7d9ad",
+                "reference": "b59b8eb9ddd879742e7710022764818e3fd7d9ad",
+                "shasum": ""
+            },
+            "require": {
+                "dashifen/collection": "^1",
+                "dashifen/exception": "^1",
+                "dashifen/repository": "^2",
+                "dashifen/transformer": "^2",
+                "php": ">=7.3"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Dashifen\\WPHandler\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Dashifen Kees",
+                    "email": "dashifen@dashifen.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "An object to define handlers for various WordPress action and filter hooks using protected methods. ",
+            "time": "2020-02-14T15:43:04+00:00"
+        },
+        {
+            "name": "dashifen/wp-templates",
+            "version": "3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dashifen/wp-templates.git",
+                "reference": "99e876e87153fe0d45f7dcebaa0acc94985f1f2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dashifen/wp-templates/zipball/99e876e87153fe0d45f7dcebaa0acc94985f1f2a",
+                "reference": "99e876e87153fe0d45f7dcebaa0acc94985f1f2a",
+                "shasum": ""
+            },
+            "require": {
+                "dashifen/repository": "^2",
+                "php": ">=7.3"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Dashifen\\WPTemplates\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Dashifen Kees",
+                    "email": "dashifen@dashifen.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "A series of objects that encapsulate behaviors for WordPress templates.",
+            "time": "2020-02-16T16:32:33+00:00"
+        },
+        {
             "name": "ffraenz/private-composer-installer",
             "version": "v2.0.0",
             "source": {
@@ -437,6 +716,58 @@
             "time": "2018-11-09T20:10:38+00:00"
         },
         {
+            "name": "matto1990/lastfm-api",
+            "version": "v1.6.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/matt-oakes/PHP-Last.fm-API.git",
+                "reference": "6a3125d53f5debf44dd32e41f8da49177483424b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/matt-oakes/PHP-Last.fm-API/zipball/6a3125d53f5debf44dd32e41f8da49177483424b",
+                "reference": "6a3125d53f5debf44dd32e41f8da49177483424b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "php": ">=5.3.3",
+                "phpunit/phpunit": "7.4.0",
+                "vlucas/phpdotenv": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LastFmApi\\": "src/lastfmapi/",
+                    "Tests\\": "tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcos",
+                    "email": "devilcius@gmail.com"
+                },
+                {
+                    "name": "Matt",
+                    "email": "matt@oakes.ws"
+                }
+            ],
+            "description": "Last.fm webservice client",
+            "homepage": "https://github.com/matto1990/PHP-Last.fm-API",
+            "keywords": [
+                "api",
+                "last.fm",
+                "webservice client"
+            ],
+            "time": "2019-06-14T07:38:04+00:00"
+        },
+        {
             "name": "phpoption/phpoption",
             "version": "1.7.2",
             "source": {
@@ -610,16 +941,16 @@
         },
         {
             "name": "timber/timber",
-            "version": "1.15.0",
+            "version": "1.15.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/timber/timber.git",
-                "reference": "03861c56fd94d9293b462e9bc5805db288993068"
+                "reference": "bbc8bf7ea8718d3be18fd596e594dbda17e85e13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/timber/timber/zipball/03861c56fd94d9293b462e9bc5805db288993068",
-                "reference": "03861c56fd94d9293b462e9bc5805db288993068",
+                "url": "https://api.github.com/repos/timber/timber/zipball/bbc8bf7ea8718d3be18fd596e594dbda17e85e13",
+                "reference": "bbc8bf7ea8718d3be18fd596e594dbda17e85e13",
                 "shasum": ""
             },
             "require": {
@@ -671,7 +1002,7 @@
                 "timber",
                 "twig"
             ],
-            "time": "2020-02-10T21:19:04+00:00"
+            "time": "2020-02-27T02:08:18+00:00"
         },
         {
             "name": "twig/twig",
@@ -871,8 +1202,6 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {
-        "php": ">=7.3"
-    },
+    "platform": [],
     "platform-dev": []
 }

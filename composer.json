@@ -48,11 +48,15 @@
           "ffraenz/private-composer-installer": "^2.0"
         }
       }
+    },
+    {
+      "url": "git@github.com:dashifen/dashifen2020.git",
+      "type": "vcs"
     }
   ],
   "require": {
-    "php": ">=7.3",
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
+    "dashifen/dashifen2020": "*",
     "johnpbloch/wordpress": ">=5.3",
     "timber/timber": "^1.15",
     "wpackagist-theme/twentytwenty": "^1"
