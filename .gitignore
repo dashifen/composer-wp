@@ -1,58 +1,35 @@
-### Dash's IDE
+### IDE
 
 .idea
 
-### Dependencies
+### Project
 
 deps
-
-### WordPress
-
 web
-wp-config.php
 
-### Config Files
+### Config
 
 .env
-.env.js
 .npmrc
+.env.js
 
-### From Pantheon's .gitignore
+### Windows
 
-# Avoid accidental modification of pantheon.upstream.yml in sites
-# created from this upstream
-pantheon.upstream.yml
-
-# Packages #
-############
-*.7z
-*.dmg
-*.gz
-*.bz2
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-*.tgz
-!wp-includes/**/*.gz
-
-# Logs and databases #
-######################
-*.log
-*.sql
-
-# OS generated files #
-######################
-.DS_Store*
-ehthumbs.db
 Thumbs.db
-._*
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
 
-# Vim generated files #
-######################
-*.un~
+### Etc.
 
-# SASS #
-##########
-.sass-cache
+*test*
+*.log
