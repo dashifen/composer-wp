@@ -25,6 +25,9 @@
       ],
       "deps/themes/{$name}/": [
         "type:wordpress-theme"
+      ],
+      "deps/mu-plugins/{$name}/": [
+        "type:wordpress-muplugin"
       ]
     }
   },
@@ -37,7 +40,7 @@
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "5.8.7",
+        "version": "5.8.9",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -56,8 +59,10 @@
   ],
   "require": {
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
+    "dashifen/acf-sharing-settings": "*",
     "dashifen/dashifen2020": "*",
-    "johnpbloch/wordpress": ">=5.3",
+    "johnpbloch/wordpress": "5.4.*",
+    "lkwdwrd/wp-muplugin-loader": "^1.0",
     "timber/timber": "^1.15",
     "wpackagist-theme/twentytwenty": "^1"
   }

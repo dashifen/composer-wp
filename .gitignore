@@ -12,6 +12,7 @@ web
 .env
 .npmrc
 .env.js
+wp-config.php
 
 ### Windows
 

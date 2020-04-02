@@ -4,14 +4,14 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "909fa01f901d1233ea42c5f668a59b42",
+    "content-hash": "30cdd3291085a6e9ee923caf93b919d7",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
-            "version": "5.8.7",
+            "version": "5.8.9",
             "dist": {
                 "type": "zip",
-                "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t=5.8.7"
+                "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t=5.8.9"
             },
             "require": {
                 "composer/installers": "^1.4",
@@ -254,6 +254,44 @@
             "time": "2020-02-07T10:39:20+00:00"
         },
         {
+            "name": "dashifen/acf-sharing-settings",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dashifen/acf-sharing-settings.git",
+                "reference": "3e6eeb2b2513fff9bbe0ec5dd6312939e0dc5283"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dashifen/acf-sharing-settings/zipball/3e6eeb2b2513fff9bbe0ec5dd6312939e0dc5283",
+                "reference": "3e6eeb2b2513fff9bbe0ec5dd6312939e0dc5283",
+                "shasum": ""
+            },
+            "require": {
+                "dashifen/wp-handler": "^9.4",
+                "timber/timber": "^1.15"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Dashifen\\ACFSharingSettings\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Dashifen Kees",
+                    "email": "dashifen@dashifen.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "An ACF field group for a settings page relating to how a site appears on Twitter and Facebook.",
+            "time": "2020-04-02T00:14:26+00:00"
+        },
+        {
             "name": "dashifen/collection",
             "version": "1.0.0",
             "source": {
@@ -419,19 +457,20 @@
         },
         {
             "name": "dashifen/transformer",
-            "version": "2.1.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/transformer.git",
-                "reference": "5dc37a3cccd45531b17526063c34acfe8a14fa25"
+                "reference": "95202e9740b145c0fb94821115dd049c1a0a2c34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/transformer/zipball/5dc37a3cccd45531b17526063c34acfe8a14fa25",
-                "reference": "5dc37a3cccd45531b17526063c34acfe8a14fa25",
+                "url": "https://api.github.com/repos/dashifen/transformer/zipball/95202e9740b145c0fb94821115dd049c1a0a2c34",
+                "reference": "95202e9740b145c0fb94821115dd049c1a0a2c34",
                 "shasum": ""
             },
             "require": {
+                "dashifen/exception": "^1.2",
                 "php": ">=7.3"
             },
             "type": "project",
@@ -447,24 +486,25 @@
             "authors": [
                 {
                     "name": "David Dashifen Kees",
-                    "email": "dashifen@dashifen.com"
+                    "email": "dashifen@dashifen.com",
+                    "role": "developer"
                 }
             ],
             "description": "An interface and abstract class useful for the production of objects which transform data.",
-            "time": "2020-01-21T20:03:03+00:00"
+            "time": "2020-03-11T14:56:21+00:00"
         },
         {
             "name": "dashifen/wp-handler",
-            "version": "9.3.1",
+            "version": "9.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/wp-handler.git",
-                "reference": "b59b8eb9ddd879742e7710022764818e3fd7d9ad"
+                "reference": "0a0f63bbcf1d602f8ffa44ace91d4f20e26a4c81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/wp-handler/zipball/b59b8eb9ddd879742e7710022764818e3fd7d9ad",
-                "reference": "b59b8eb9ddd879742e7710022764818e3fd7d9ad",
+                "url": "https://api.github.com/repos/dashifen/wp-handler/zipball/0a0f63bbcf1d602f8ffa44ace91d4f20e26a4c81",
+                "reference": "0a0f63bbcf1d602f8ffa44ace91d4f20e26a4c81",
                 "shasum": ""
             },
             "require": {
@@ -492,7 +532,7 @@
                 }
             ],
             "description": "An object to define handlers for various WordPress action and filter hooks using protected methods. ",
-            "time": "2020-02-14T15:43:04+00:00"
+            "time": "2020-03-02T14:29:51+00:00"
         },
         {
             "name": "dashifen/wp-templates",
@@ -589,20 +629,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "5.3.2",
+            "version": "5.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "a463d27a25d317c270e93f7259e2b138287bf8c4"
+                "reference": "6cec3b5d82e24c3fa565d725925afb63f116c584"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/a463d27a25d317c270e93f7259e2b138287bf8c4",
-                "reference": "a463d27a25d317c270e93f7259e2b138287bf8c4",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/6cec3b5d82e24c3fa565d725925afb63f116c584",
+                "reference": "6cec3b5d82e24c3fa565d725925afb63f116c584",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "5.3.2",
+                "johnpbloch/wordpress-core": "5.4.0",
                 "johnpbloch/wordpress-core-installer": "^1.0",
                 "php": ">=5.6.20"
             },
@@ -624,27 +664,27 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-12-18T22:32:20+00:00"
+            "time": "2020-03-31T20:17:18+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "5.3.2",
+            "version": "5.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "a282ab0051fac21d4e0cdd828519e6739743ba92"
+                "reference": "9a9941fcad81015507e6d03801aebc51296baf37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/a282ab0051fac21d4e0cdd828519e6739743ba92",
-                "reference": "a282ab0051fac21d4e0cdd828519e6739743ba92",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/9a9941fcad81015507e6d03801aebc51296baf37",
+                "reference": "9a9941fcad81015507e6d03801aebc51296baf37",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "5.3.2"
+                "wordpress/core-implementation": "5.4.0"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -654,17 +694,17 @@
             "authors": [
                 {
                     "name": "WordPress Community",
-                    "homepage": "http://wordpress.org/about/"
+                    "homepage": "https://wordpress.org/about/"
                 }
             ],
             "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
-            "homepage": "http://wordpress.org/",
+            "homepage": "https://wordpress.org/",
             "keywords": [
                 "blog",
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-12-18T22:32:15+00:00"
+            "time": "2020-03-31T20:17:13+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -714,6 +754,55 @@
                 "wordpress"
             ],
             "time": "2018-11-09T20:10:38+00:00"
+        },
+        {
+            "name": "lkwdwrd/wp-muplugin-loader",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lkwdwrd/wp-muplugin-loader.git",
+                "reference": "aed228e0037fc243c116a0d2d69076db5ed7d96b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lkwdwrd/wp-muplugin-loader/zipball/aed228e0037fc243c116a0d2d69076db5ed7d96b",
+                "reference": "aed228e0037fc243c116a0d2d69076db5ed7d96b",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "require-dev": {
+                "10up/wp_mock": "dev-dev",
+                "codeclimate/php-test-reporter": "^0.4.4",
+                "phpunit/phpunit": "^7.1.4"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "LkWdwrd\\Composer\\MULoaderPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "LkWdwrd\\Composer\\": "src/lkwdwrd/Composer"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Luke Woodward",
+                    "email": "woodward.lucas@gmail.com"
+                }
+            ],
+            "description": "A drop-in MU Plugin loader for WordPress",
+            "keywords": [
+                "loader",
+                "muplugin",
+                "wordpress"
+            ],
+            "time": "2018-04-20T22:09:51+00:00"
         },
         {
             "name": "matto1990/lastfm-api",
@@ -769,20 +858,20 @@
         },
         {
             "name": "phpoption/phpoption",
-            "version": "1.7.2",
+            "version": "1.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/php-option.git",
-                "reference": "77f7c4d2e65413aff5b5a8cc8b3caf7a28d81959"
+                "reference": "4acfd6a4b33a509d8c88f50e5222f734b6aeebae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/77f7c4d2e65413aff5b5a8cc8b3caf7a28d81959",
-                "reference": "77f7c4d2e65413aff5b5a8cc8b3caf7a28d81959",
+                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/4acfd6a4b33a509d8c88f50e5222f734b6aeebae",
+                "reference": "4acfd6a4b33a509d8c88f50e5222f734b6aeebae",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5.9 || ^7.0"
+                "php": "^5.5.9 || ^7.0 || ^8.0"
             },
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.3",
@@ -820,20 +909,20 @@
                 "php",
                 "type"
             ],
-            "time": "2019-12-15T19:35:24+00:00"
+            "time": "2020-03-21T18:07:53+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.14.0",
+            "version": "v1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "fbdeaec0df06cf3d51c93de80c7eb76e271f5a38"
+                "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/fbdeaec0df06cf3d51c93de80c7eb76e271f5a38",
-                "reference": "fbdeaec0df06cf3d51c93de80c7eb76e271f5a38",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
+                "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
                 "shasum": ""
             },
             "require": {
@@ -845,7 +934,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.14-dev"
+                    "dev-master": "1.15-dev"
                 }
             },
             "autoload": {
@@ -878,20 +967,20 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2020-01-13T11:15:53+00:00"
+            "time": "2020-02-27T09:26:54+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.14.0",
+            "version": "v1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "34094cfa9abe1f0f14f48f490772db7a775559f2"
+                "reference": "81ffd3a9c6d707be22e3012b827de1c9775fc5ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/34094cfa9abe1f0f14f48f490772db7a775559f2",
-                "reference": "34094cfa9abe1f0f14f48f490772db7a775559f2",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/81ffd3a9c6d707be22e3012b827de1c9775fc5ac",
+                "reference": "81ffd3a9c6d707be22e3012b827de1c9775fc5ac",
                 "shasum": ""
             },
             "require": {
@@ -903,7 +992,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.14-dev"
+                    "dev-master": "1.15-dev"
                 }
             },
             "autoload": {
@@ -937,20 +1026,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-01-13T11:15:53+00:00"
+            "time": "2020-03-09T19:04:49+00:00"
         },
         {
             "name": "timber/timber",
-            "version": "1.15.1",
+            "version": "1.15.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/timber/timber.git",
-                "reference": "bbc8bf7ea8718d3be18fd596e594dbda17e85e13"
+                "reference": "c0856786f5f2bb9bbcca9febc1ae8998d912734b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/timber/timber/zipball/bbc8bf7ea8718d3be18fd596e594dbda17e85e13",
-                "reference": "bbc8bf7ea8718d3be18fd596e594dbda17e85e13",
+                "url": "https://api.github.com/repos/timber/timber/zipball/c0856786f5f2bb9bbcca9febc1ae8998d912734b",
+                "reference": "c0856786f5f2bb9bbcca9febc1ae8998d912734b",
                 "shasum": ""
             },
             "require": {
@@ -1002,7 +1091,7 @@
                 "timber",
                 "twig"
             ],
-            "time": "2020-02-27T02:08:18+00:00"
+            "time": "2020-03-24T17:38:21+00:00"
         },
         {
             "name": "twig/twig",
@@ -1122,16 +1211,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v3.6.0",
+            "version": "v3.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "1bdf24f065975594f6a117f0f1f6cabf1333b156"
+                "reference": "786a947e57086cf236cefdee80784634224b99fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/1bdf24f065975594f6a117f0f1f6cabf1333b156",
-                "reference": "1bdf24f065975594f6a117f0f1f6cabf1333b156",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/786a947e57086cf236cefdee80784634224b99fa",
+                "reference": "786a947e57086cf236cefdee80784634224b99fa",
                 "shasum": ""
             },
             "require": {
@@ -1140,7 +1229,13 @@
                 "symfony/polyfill-ctype": "^1.9"
             },
             "require-dev": {
+                "ext-filter": "*",
+                "ext-pcre": "*",
                 "phpunit/phpunit": "^4.8.35 || ^5.0 || ^6.0 || ^7.0"
+            },
+            "suggest": {
+                "ext-filter": "Required to use the boolean validator.",
+                "ext-pcre": "Required to use most of the library."
             },
             "type": "library",
             "extra": {
@@ -1175,19 +1270,19 @@
                 "env",
                 "environment"
             ],
-            "time": "2019-09-10T21:37:39+00:00"
+            "time": "2020-03-27T23:36:02+00:00"
         },
         {
             "name": "wpackagist-theme/twentytwenty",
-            "version": "1.1",
+            "version": "1.2",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/twentytwenty/",
-                "reference": "1.1"
+                "reference": "1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentytwenty.1.1.zip"
+                "url": "https://downloads.wordpress.org/theme/twentytwenty.1.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
