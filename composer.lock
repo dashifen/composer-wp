@@ -293,16 +293,16 @@
         },
         {
             "name": "dashifen/anti-brute-squad",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/anti-brute-squad.git",
-                "reference": "2099e26dd9bcc6dbed8b0a9fd36ba88555ddbaf7"
+                "reference": "3fdb819b4e00c04f09ee17b8f220378d9b0a1448"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/anti-brute-squad/zipball/2099e26dd9bcc6dbed8b0a9fd36ba88555ddbaf7",
-                "reference": "2099e26dd9bcc6dbed8b0a9fd36ba88555ddbaf7",
+                "url": "https://api.github.com/repos/dashifen/anti-brute-squad/zipball/3fdb819b4e00c04f09ee17b8f220378d9b0a1448",
+                "reference": "3fdb819b4e00c04f09ee17b8f220378d9b0a1448",
                 "shasum": ""
             },
             "require": {
@@ -325,7 +325,7 @@
                 }
             ],
             "description": "A WordPress MU plugin that prevents brute force attacks by limiting the number of failed login attempts during a browser session.",
-            "time": "2020-04-06T12:50:38+00:00"
+            "time": "2020-04-06T13:09:47+00:00"
         },
         {
             "name": "dashifen/collection",
