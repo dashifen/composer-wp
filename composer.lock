@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "30cdd3291085a6e9ee923caf93b919d7",
+    "content-hash": "cb82bbb472f440c594018383619ad67f",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -255,16 +255,16 @@
         },
         {
             "name": "dashifen/acf-sharing-settings",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/acf-sharing-settings.git",
-                "reference": "3e6eeb2b2513fff9bbe0ec5dd6312939e0dc5283"
+                "reference": "d88fe22382a24ea3982f130fb6b9a0069cdf0c3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/acf-sharing-settings/zipball/3e6eeb2b2513fff9bbe0ec5dd6312939e0dc5283",
-                "reference": "3e6eeb2b2513fff9bbe0ec5dd6312939e0dc5283",
+                "url": "https://api.github.com/repos/dashifen/acf-sharing-settings/zipball/d88fe22382a24ea3982f130fb6b9a0069cdf0c3a",
+                "reference": "d88fe22382a24ea3982f130fb6b9a0069cdf0c3a",
                 "shasum": ""
             },
             "require": {
@@ -289,7 +289,43 @@
                 }
             ],
             "description": "An ACF field group for a settings page relating to how a site appears on Twitter and Facebook.",
-            "time": "2020-04-02T00:14:26+00:00"
+            "time": "2020-04-02T14:27:53+00:00"
+        },
+        {
+            "name": "dashifen/anti-brute-squad",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dashifen/anti-brute-squad.git",
+                "reference": "2099e26dd9bcc6dbed8b0a9fd36ba88555ddbaf7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dashifen/anti-brute-squad/zipball/2099e26dd9bcc6dbed8b0a9fd36ba88555ddbaf7",
+                "reference": "2099e26dd9bcc6dbed8b0a9fd36ba88555ddbaf7",
+                "shasum": ""
+            },
+            "require": {
+                "dashifen/wp-handler": "^9.4"
+            },
+            "type": "wordpress-muplugin",
+            "autoload": {
+                "psr-4": {
+                    "Dashifen\\AntiBruteSquad\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Dashifen Kees",
+                    "email": "dashifen@dashifen.com"
+                }
+            ],
+            "description": "A WordPress MU plugin that prevents brute force attacks by limiting the number of failed login attempts during a browser session.",
+            "time": "2020-04-06T12:50:38+00:00"
         },
         {
             "name": "dashifen/collection",

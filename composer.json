@@ -59,7 +59,8 @@
   ],
   "require": {
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
-    "dashifen/acf-sharing-settings": "*",
+    "dashifen/acf-sharing-settings": "^1.2",
+    "dashifen/anti-brute-squad": "^1.0",
     "dashifen/dashifen2020": "*",
     "johnpbloch/wordpress": "5.4.*",
     "lkwdwrd/wp-muplugin-loader": "^1.0",
