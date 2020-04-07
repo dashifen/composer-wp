@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "74f1ca518a690fad61b7e18f73402d2e",
+    "content-hash": "337766ece24052f22884fa4aef1035d6",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -258,16 +258,16 @@
         },
         {
             "name": "dashifen/acf-sharing-settings",
-            "version": "1.3.1",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/acf-sharing-settings.git",
-                "reference": "a95508f2a27df40f83b5154619382c4b8edf91ef"
+                "reference": "af988a6af53bda4cad43427f30691596073e74a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/acf-sharing-settings/zipball/a95508f2a27df40f83b5154619382c4b8edf91ef",
-                "reference": "a95508f2a27df40f83b5154619382c4b8edf91ef",
+                "url": "https://api.github.com/repos/dashifen/acf-sharing-settings/zipball/af988a6af53bda4cad43427f30691596073e74a9",
+                "reference": "af988a6af53bda4cad43427f30691596073e74a9",
                 "shasum": ""
             },
             "require": {
@@ -292,20 +292,20 @@
                 }
             ],
             "description": "An ACF field group for a settings page relating to how a site appears on Twitter and Facebook.",
-            "time": "2020-04-06T18:56:03+00:00"
+            "time": "2020-04-07T16:45:26+00:00"
         },
         {
             "name": "dashifen/anti-brute-squad",
-            "version": "1.1.3",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/anti-brute-squad.git",
-                "reference": "b0bf7edacee5bb5c7bd6c84153e543833854f018"
+                "reference": "357529a14b1f2ef76e5f2204f143eb336faff6f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/anti-brute-squad/zipball/b0bf7edacee5bb5c7bd6c84153e543833854f018",
-                "reference": "b0bf7edacee5bb5c7bd6c84153e543833854f018",
+                "url": "https://api.github.com/repos/dashifen/anti-brute-squad/zipball/357529a14b1f2ef76e5f2204f143eb336faff6f5",
+                "reference": "357529a14b1f2ef76e5f2204f143eb336faff6f5",
                 "shasum": ""
             },
             "require": {
@@ -328,7 +328,7 @@
                 }
             ],
             "description": "A WordPress MU plugin that prevents brute force attacks by limiting the number of failed login attempts during a browser session.",
-            "time": "2020-04-06T18:55:27+00:00"
+            "time": "2020-04-07T16:46:20+00:00"
         },
         {
             "name": "dashifen/collection",
@@ -456,6 +456,42 @@
             "time": "2019-12-12T14:26:49+00:00"
         },
         {
+            "name": "dashifen/memsrvcs-show-download-count",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dashifen/memsrvcs-show-download-count.git",
+                "reference": "2dc5992650906e565a89841e0a2f874fb6d02f70"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dashifen/memsrvcs-show-download-count/zipball/2dc5992650906e565a89841e0a2f874fb6d02f70",
+                "reference": "2dc5992650906e565a89841e0a2f874fb6d02f70",
+                "shasum": ""
+            },
+            "require": {
+                "dashifen/wp-handler": "^9.4"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Dashifen\\MemSrvcs\\ShowDownloadCount\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Dashifen Kees",
+                    "email": "dashifen@dashifen.com"
+                }
+            ],
+            "description": "Displays the download count for PDFs on the Memoriam Services site",
+            "time": "2020-04-07T18:34:34+00:00"
+        },
+        {
             "name": "dashifen/repository",
             "version": "2.0.4",
             "source": {
@@ -534,16 +570,16 @@
         },
         {
             "name": "dashifen/wp-handler",
-            "version": "9.5.0",
+            "version": "9.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/wp-handler.git",
-                "reference": "6407def52863dc0fc30cdf33f4118ec619e17f4d"
+                "reference": "6a20ecc22df816bf749ea08b5a223a5560a714b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/wp-handler/zipball/6407def52863dc0fc30cdf33f4118ec619e17f4d",
-                "reference": "6407def52863dc0fc30cdf33f4118ec619e17f4d",
+                "url": "https://api.github.com/repos/dashifen/wp-handler/zipball/6a20ecc22df816bf749ea08b5a223a5560a714b3",
+                "reference": "6a20ecc22df816bf749ea08b5a223a5560a714b3",
                 "shasum": ""
             },
             "require": {
@@ -571,7 +607,7 @@
                 }
             ],
             "description": "An object to define handlers for various WordPress action and filter hooks using protected methods. ",
-            "time": "2020-04-06T18:27:52+00:00"
+            "time": "2020-04-07T16:47:15+00:00"
         },
         {
             "name": "dashifen/wp-templates",
@@ -842,6 +878,55 @@
                 "wordpress"
             ],
             "time": "2018-11-09T20:10:38+00:00"
+        },
+        {
+            "name": "lkwdwrd/wp-muplugin-loader",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lkwdwrd/wp-muplugin-loader.git",
+                "reference": "aed228e0037fc243c116a0d2d69076db5ed7d96b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lkwdwrd/wp-muplugin-loader/zipball/aed228e0037fc243c116a0d2d69076db5ed7d96b",
+                "reference": "aed228e0037fc243c116a0d2d69076db5ed7d96b",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "require-dev": {
+                "10up/wp_mock": "dev-dev",
+                "codeclimate/php-test-reporter": "^0.4.4",
+                "phpunit/phpunit": "^7.1.4"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "LkWdwrd\\Composer\\MULoaderPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "LkWdwrd\\Composer\\": "src/lkwdwrd/Composer"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Luke Woodward",
+                    "email": "woodward.lucas@gmail.com"
+                }
+            ],
+            "description": "A drop-in MU Plugin loader for WordPress",
+            "keywords": [
+                "loader",
+                "muplugin",
+                "wordpress"
+            ],
+            "time": "2018-04-20T22:09:51+00:00"
         },
         {
             "name": "matto1990/lastfm-api",
