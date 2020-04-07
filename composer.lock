@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e399f0dcb7be571fd0210840c0cedc29",
+    "content-hash": "74f1ca518a690fad61b7e18f73402d2e",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -131,28 +131,31 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.8.0",
+            "version": "v1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "7d610d50aae61ae7ed6675e58efeabdf279bb5e3"
+                "reference": "b93bcf0fa1fccb0b7d176b0967d969691cd74cca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/7d610d50aae61ae7ed6675e58efeabdf279bb5e3",
-                "reference": "7d610d50aae61ae7ed6675e58efeabdf279bb5e3",
+                "url": "https://api.github.com/repos/composer/installers/zipball/b93bcf0fa1fccb0b7d176b0967d969691cd74cca",
+                "reference": "b93bcf0fa1fccb0b7d176b0967d969691cd74cca",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.0"
+                "composer-plugin-api": "^1.0 || ^2.0"
             },
             "replace": {
                 "roundcube/plugin-installer": "*",
                 "shama/baton": "*"
             },
             "require-dev": {
-                "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "^4.8.36"
+                "composer/composer": "1.6.* || 2.0.*@dev",
+                "composer/semver": "1.0.* || 2.0.*@dev",
+                "phpunit/phpunit": "^4.8.36",
+                "sebastian/comparator": "^1.2.4",
+                "symfony/process": "^2.3"
             },
             "type": "composer-plugin",
             "extra": {
@@ -251,7 +254,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2020-02-07T10:39:20+00:00"
+            "time": "2020-04-07T06:57:05+00:00"
         },
         {
             "name": "dashifen/acf-sharing-settings",
@@ -326,42 +329,6 @@
             ],
             "description": "A WordPress MU plugin that prevents brute force attacks by limiting the number of failed login attempts during a browser session.",
             "time": "2020-04-06T18:55:27+00:00"
-        },
-        {
-            "name": "dashifen/attachment-counter",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dashifen/attachment-counter.git",
-                "reference": "40af23a9772da61ebf6abd1c5c0d0e363802fa1b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/attachment-counter/zipball/40af23a9772da61ebf6abd1c5c0d0e363802fa1b",
-                "reference": "40af23a9772da61ebf6abd1c5c0d0e363802fa1b",
-                "shasum": ""
-            },
-            "require": {
-                "dashifen/wp-handler": "^9.4"
-            },
-            "type": "wordpress-plugin",
-            "autoload": {
-                "psr-4": {
-                    "Dashifen\\AttachmentCounter\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "David Dashifen Kees",
-                    "email": "dashifen@dashifen.com"
-                }
-            ],
-            "description": "A WordPress plugin that counts attachment downloads when you hit one of their attachment pages.",
-            "time": "2020-04-06T20:41:32+00:00"
         },
         {
             "name": "dashifen/collection",
@@ -875,55 +842,6 @@
                 "wordpress"
             ],
             "time": "2018-11-09T20:10:38+00:00"
-        },
-        {
-            "name": "lkwdwrd/wp-muplugin-loader",
-            "version": "1.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lkwdwrd/wp-muplugin-loader.git",
-                "reference": "aed228e0037fc243c116a0d2d69076db5ed7d96b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lkwdwrd/wp-muplugin-loader/zipball/aed228e0037fc243c116a0d2d69076db5ed7d96b",
-                "reference": "aed228e0037fc243c116a0d2d69076db5ed7d96b",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0"
-            },
-            "require-dev": {
-                "10up/wp_mock": "dev-dev",
-                "codeclimate/php-test-reporter": "^0.4.4",
-                "phpunit/phpunit": "^7.1.4"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "LkWdwrd\\Composer\\MULoaderPlugin"
-            },
-            "autoload": {
-                "psr-4": {
-                    "LkWdwrd\\Composer\\": "src/lkwdwrd/Composer"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Luke Woodward",
-                    "email": "woodward.lucas@gmail.com"
-                }
-            ],
-            "description": "A drop-in MU Plugin loader for WordPress",
-            "keywords": [
-                "loader",
-                "muplugin",
-                "wordpress"
-            ],
-            "time": "2018-04-20T22:09:51+00:00"
         },
         {
             "name": "matto1990/lastfm-api",

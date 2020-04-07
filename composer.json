@@ -64,7 +64,6 @@
     "dashifen/dashifen2020": "*",
     "jaybizzle/crawler-detect": "^1.2",
     "johnpbloch/wordpress": "5.4.*",
-    "lkwdwrd/wp-muplugin-loader": "^1.0",
     "timber/timber": "^1.15",
     "wpackagist-theme/twentytwenty": "^1"
   }
