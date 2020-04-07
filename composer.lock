@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cb82bbb472f440c594018383619ad67f",
+    "content-hash": "e399f0dcb7be571fd0210840c0cedc29",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -255,16 +255,16 @@
         },
         {
             "name": "dashifen/acf-sharing-settings",
-            "version": "1.2.1",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/acf-sharing-settings.git",
-                "reference": "d88fe22382a24ea3982f130fb6b9a0069cdf0c3a"
+                "reference": "a95508f2a27df40f83b5154619382c4b8edf91ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/acf-sharing-settings/zipball/d88fe22382a24ea3982f130fb6b9a0069cdf0c3a",
-                "reference": "d88fe22382a24ea3982f130fb6b9a0069cdf0c3a",
+                "url": "https://api.github.com/repos/dashifen/acf-sharing-settings/zipball/a95508f2a27df40f83b5154619382c4b8edf91ef",
+                "reference": "a95508f2a27df40f83b5154619382c4b8edf91ef",
                 "shasum": ""
             },
             "require": {
@@ -289,20 +289,20 @@
                 }
             ],
             "description": "An ACF field group for a settings page relating to how a site appears on Twitter and Facebook.",
-            "time": "2020-04-02T14:27:53+00:00"
+            "time": "2020-04-06T18:56:03+00:00"
         },
         {
             "name": "dashifen/anti-brute-squad",
-            "version": "1.0.2",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/anti-brute-squad.git",
-                "reference": "3fdb819b4e00c04f09ee17b8f220378d9b0a1448"
+                "reference": "b0bf7edacee5bb5c7bd6c84153e543833854f018"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/anti-brute-squad/zipball/3fdb819b4e00c04f09ee17b8f220378d9b0a1448",
-                "reference": "3fdb819b4e00c04f09ee17b8f220378d9b0a1448",
+                "url": "https://api.github.com/repos/dashifen/anti-brute-squad/zipball/b0bf7edacee5bb5c7bd6c84153e543833854f018",
+                "reference": "b0bf7edacee5bb5c7bd6c84153e543833854f018",
                 "shasum": ""
             },
             "require": {
@@ -325,7 +325,43 @@
                 }
             ],
             "description": "A WordPress MU plugin that prevents brute force attacks by limiting the number of failed login attempts during a browser session.",
-            "time": "2020-04-06T13:09:47+00:00"
+            "time": "2020-04-06T18:55:27+00:00"
+        },
+        {
+            "name": "dashifen/attachment-counter",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dashifen/attachment-counter.git",
+                "reference": "40af23a9772da61ebf6abd1c5c0d0e363802fa1b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dashifen/attachment-counter/zipball/40af23a9772da61ebf6abd1c5c0d0e363802fa1b",
+                "reference": "40af23a9772da61ebf6abd1c5c0d0e363802fa1b",
+                "shasum": ""
+            },
+            "require": {
+                "dashifen/wp-handler": "^9.4"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Dashifen\\AttachmentCounter\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Dashifen Kees",
+                    "email": "dashifen@dashifen.com"
+                }
+            ],
+            "description": "A WordPress plugin that counts attachment downloads when you hit one of their attachment pages.",
+            "time": "2020-04-06T20:41:32+00:00"
         },
         {
             "name": "dashifen/collection",
@@ -531,16 +567,16 @@
         },
         {
             "name": "dashifen/wp-handler",
-            "version": "9.4.1",
+            "version": "9.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/wp-handler.git",
-                "reference": "0a0f63bbcf1d602f8ffa44ace91d4f20e26a4c81"
+                "reference": "6407def52863dc0fc30cdf33f4118ec619e17f4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/wp-handler/zipball/0a0f63bbcf1d602f8ffa44ace91d4f20e26a4c81",
-                "reference": "0a0f63bbcf1d602f8ffa44ace91d4f20e26a4c81",
+                "url": "https://api.github.com/repos/dashifen/wp-handler/zipball/6407def52863dc0fc30cdf33f4118ec619e17f4d",
+                "reference": "6407def52863dc0fc30cdf33f4118ec619e17f4d",
                 "shasum": ""
             },
             "require": {
@@ -568,7 +604,7 @@
                 }
             ],
             "description": "An object to define handlers for various WordPress action and filter hooks using protected methods. ",
-            "time": "2020-03-02T14:29:51+00:00"
+            "time": "2020-04-06T18:27:52+00:00"
         },
         {
             "name": "dashifen/wp-templates",
@@ -662,6 +698,55 @@
                 "wp"
             ],
             "time": "2019-01-30T21:44:48+00:00"
+        },
+        {
+            "name": "jaybizzle/crawler-detect",
+            "version": "v1.2.94",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JayBizzle/Crawler-Detect.git",
+                "reference": "fbd4c12741583fb9d8f0bcbf65248a34eed68fc9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/fbd4c12741583fb9d8f0bcbf65248a34eed68fc9",
+                "reference": "fbd4c12741583fb9d8f0bcbf65248a34eed68fc9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8|^5.5|^6.5",
+                "satooshi/php-coveralls": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jaybizzle\\CrawlerDetect\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Beech",
+                    "email": "m@rkbee.ch",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent",
+            "homepage": "https://github.com/JayBizzle/Crawler-Detect/",
+            "keywords": [
+                "crawler",
+                "crawler detect",
+                "crawler detector",
+                "crawlerdetect",
+                "php crawler detect"
+            ],
+            "time": "2020-02-20T21:42:59+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
