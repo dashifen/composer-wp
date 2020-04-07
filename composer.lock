@@ -258,16 +258,16 @@
         },
         {
             "name": "dashifen/acf-sharing-settings",
-            "version": "1.4.0",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/acf-sharing-settings.git",
-                "reference": "af988a6af53bda4cad43427f30691596073e74a9"
+                "reference": "bbc4e21bef22418467174e83f7492a20ab247f6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/acf-sharing-settings/zipball/af988a6af53bda4cad43427f30691596073e74a9",
-                "reference": "af988a6af53bda4cad43427f30691596073e74a9",
+                "url": "https://api.github.com/repos/dashifen/acf-sharing-settings/zipball/bbc4e21bef22418467174e83f7492a20ab247f6e",
+                "reference": "bbc4e21bef22418467174e83f7492a20ab247f6e",
                 "shasum": ""
             },
             "require": {
@@ -292,7 +292,7 @@
                 }
             ],
             "description": "An ACF field group for a settings page relating to how a site appears on Twitter and Facebook.",
-            "time": "2020-04-07T16:45:26+00:00"
+            "time": "2020-04-07T20:58:41+00:00"
         },
         {
             "name": "dashifen/anti-brute-squad",
