@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "337766ece24052f22884fa4aef1035d6",
+    "content-hash": "25674b7f32e2cb0a72108c97a90f8f28",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -329,6 +329,46 @@
             ],
             "description": "A WordPress MU plugin that prevents brute force attacks by limiting the number of failed login attempts during a browser session.",
             "time": "2020-04-07T16:46:20+00:00"
+        },
+        {
+            "name": "dashifen/ceremonies",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dashifen/ceremonies.git",
+                "reference": "1f776058d344518ae6d2f8260367a82505267604"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dashifen/ceremonies/zipball/1f776058d344518ae6d2f8260367a82505267604",
+                "reference": "1f776058d344518ae6d2f8260367a82505267604",
+                "shasum": ""
+            },
+            "require": {
+                "dashifen/wp-handler": "^9.5"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Dashifen\\Ceremonies\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Dashifen Kees",
+                    "email": "dashifen@dashifen.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "A WordPress custom post type for the ceremonies on https://memoriam.services.",
+            "support": {
+                "source": "https://github.com/dashifen/ceremonies/tree/1.0.3",
+                "issues": "https://github.com/dashifen/ceremonies/issues"
+            },
+            "time": "2020-04-13T21:12:33+00:00"
         },
         {
             "name": "dashifen/collection",
@@ -1335,16 +1375,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v3.6.2",
+            "version": "v3.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "786a947e57086cf236cefdee80784634224b99fa"
+                "reference": "1b3103013797f04521c6cae5560f604649484066"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/786a947e57086cf236cefdee80784634224b99fa",
-                "reference": "786a947e57086cf236cefdee80784634224b99fa",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/1b3103013797f04521c6cae5560f604649484066",
+                "reference": "1b3103013797f04521c6cae5560f604649484066",
                 "shasum": ""
             },
             "require": {
@@ -1394,7 +1434,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2020-03-27T23:36:02+00:00"
+            "time": "2020-04-12T15:18:03+00:00"
         },
         {
             "name": "wpackagist-theme/twentytwenty",
