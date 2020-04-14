@@ -332,16 +332,16 @@
         },
         {
             "name": "dashifen/ceremonies",
-            "version": "1.2.3",
+            "version": "1.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/ceremonies.git",
-                "reference": "ac45cda0ea947e98534d19fa762794bf1a445f6c"
+                "reference": "87f09d984e6e717ba0a2f9327394b21d85348387"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/ceremonies/zipball/ac45cda0ea947e98534d19fa762794bf1a445f6c",
-                "reference": "ac45cda0ea947e98534d19fa762794bf1a445f6c",
+                "url": "https://api.github.com/repos/dashifen/ceremonies/zipball/87f09d984e6e717ba0a2f9327394b21d85348387",
+                "reference": "87f09d984e6e717ba0a2f9327394b21d85348387",
                 "shasum": ""
             },
             "require": {
@@ -365,10 +365,10 @@
             ],
             "description": "A WordPress custom post type for the ceremonies on https://memoriam.services.",
             "support": {
-                "source": "https://github.com/dashifen/ceremonies/tree/1.2.3",
+                "source": "https://github.com/dashifen/ceremonies/tree/1.2.4",
                 "issues": "https://github.com/dashifen/ceremonies/issues"
             },
-            "time": "2020-04-14T00:37:49+00:00"
+            "time": "2020-04-14T15:43:04+00:00"
         },
         {
             "name": "dashifen/collection",
