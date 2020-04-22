@@ -332,16 +332,16 @@
         },
         {
             "name": "dashifen/ceremonies",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/ceremonies.git",
-                "reference": "0289137de08f662022005da0b74e9841b93b9c2a"
+                "reference": "74239bf37814247fb16480a6dd5dc1fd387e60cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/ceremonies/zipball/0289137de08f662022005da0b74e9841b93b9c2a",
-                "reference": "0289137de08f662022005da0b74e9841b93b9c2a",
+                "url": "https://api.github.com/repos/dashifen/ceremonies/zipball/74239bf37814247fb16480a6dd5dc1fd387e60cc",
+                "reference": "74239bf37814247fb16480a6dd5dc1fd387e60cc",
                 "shasum": ""
             },
             "require": {
@@ -365,10 +365,10 @@
             ],
             "description": "A WordPress custom post type for the ceremonies on https://memoriam.services.",
             "support": {
-                "source": "https://github.com/dashifen/ceremonies/tree/1.3.0",
+                "source": "https://github.com/dashifen/ceremonies/tree/1.3.1",
                 "issues": "https://github.com/dashifen/ceremonies/issues"
             },
-            "time": "2020-04-15T20:52:11+00:00"
+            "time": "2020-04-22T16:22:07+00:00"
         },
         {
             "name": "dashifen/collection",
@@ -610,16 +610,16 @@
         },
         {
             "name": "dashifen/wp-handler",
-            "version": "9.5.1",
+            "version": "9.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/wp-handler.git",
-                "reference": "6a20ecc22df816bf749ea08b5a223a5560a714b3"
+                "reference": "1ec7a8da7e27077ba81664efccb44cbfa501c839"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/wp-handler/zipball/6a20ecc22df816bf749ea08b5a223a5560a714b3",
-                "reference": "6a20ecc22df816bf749ea08b5a223a5560a714b3",
+                "url": "https://api.github.com/repos/dashifen/wp-handler/zipball/1ec7a8da7e27077ba81664efccb44cbfa501c839",
+                "reference": "1ec7a8da7e27077ba81664efccb44cbfa501c839",
                 "shasum": ""
             },
             "require": {
@@ -647,7 +647,7 @@
                 }
             ],
             "description": "An object to define handlers for various WordPress action and filter hooks using protected methods. ",
-            "time": "2020-04-07T16:47:15+00:00"
+            "time": "2020-04-20T11:57:24+00:00"
         },
         {
             "name": "dashifen/wp-templates",
