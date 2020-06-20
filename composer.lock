@@ -529,16 +529,16 @@
         },
         {
             "name": "dashifen/iliffhealers",
-            "version": "1.0.1",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/iliff-healers-theme.git",
-                "reference": "bdc606a04567b33cd87c78929a366e85c716d3fb"
+                "reference": "4af49ff09e1bebdadfd21a117fd5e10c4fa2eeb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/iliff-healers-theme/zipball/bdc606a04567b33cd87c78929a366e85c716d3fb",
-                "reference": "bdc606a04567b33cd87c78929a366e85c716d3fb",
+                "url": "https://api.github.com/repos/dashifen/iliff-healers-theme/zipball/4af49ff09e1bebdadfd21a117fd5e10c4fa2eeb4",
+                "reference": "4af49ff09e1bebdadfd21a117fd5e10c4fa2eeb4",
                 "shasum": ""
             },
             "require": {
@@ -566,10 +566,10 @@
             ],
             "description": "A theme for iliffhealers.org.",
             "support": {
-                "source": "https://github.com/dashifen/iliff-healers-theme/tree/1.0.1",
+                "source": "https://github.com/dashifen/iliff-healers-theme/tree/1.1.0",
                 "issues": "https://github.com/dashifen/iliff-healers-theme/issues"
             },
-            "time": "2020-06-20T16:21:41+00:00"
+            "time": "2020-06-20T21:27:47+00:00"
         },
         {
             "name": "dashifen/memsrvcs-show-download-count",
