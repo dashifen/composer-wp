@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cba55718cc36b188eb944de98e866c73",
+    "content-hash": "dd28c17a8b66b0de07ced97f7901642e",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -486,16 +486,16 @@
         },
         {
             "name": "dashifen/iliff-healers-videos",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/iliff-healers-videos.git",
-                "reference": "190cc5a596950309d43848ba690abeb4c1945822"
+                "reference": "5d4370c86dc46846825bb5c1401aec847ae45efc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/iliff-healers-videos/zipball/190cc5a596950309d43848ba690abeb4c1945822",
-                "reference": "190cc5a596950309d43848ba690abeb4c1945822",
+                "url": "https://api.github.com/repos/dashifen/iliff-healers-videos/zipball/5d4370c86dc46846825bb5c1401aec847ae45efc",
+                "reference": "5d4370c86dc46846825bb5c1401aec847ae45efc",
                 "shasum": ""
             },
             "require": {
@@ -522,10 +522,54 @@
             ],
             "description": "A custom post type and associated support for the Iliff+Healers Initiative videos.",
             "support": {
-                "source": "https://github.com/dashifen/iliff-healers-videos/tree/release",
+                "source": "https://github.com/dashifen/iliff-healers-videos/tree/1.0.1",
                 "issues": "https://github.com/dashifen/iliff-healers-videos/issues"
             },
-            "time": "2020-06-13T19:56:10+00:00"
+            "time": "2020-06-20T14:39:07+00:00"
+        },
+        {
+            "name": "dashifen/iliffhealers",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dashifen/iliff-healers-theme.git",
+                "reference": "e3a8e235e7a0c623c9e217a3404559fe504a7871"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dashifen/iliff-healers-theme/zipball/e3a8e235e7a0c623c9e217a3404559fe504a7871",
+                "reference": "e3a8e235e7a0c623c9e217a3404559fe504a7871",
+                "shasum": ""
+            },
+            "require": {
+                "dashifen/wp-handler": "^9.6",
+                "dashifen/wp-templates": "^3.2",
+                "ext-json": ">=7.4",
+                "php": ">=7.4",
+                "timber/timber": "^1.16"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dashifen\\IliffHealers\\": "src"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "David Dashifen Kees",
+                    "email": "dashifen@dashifen.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "A theme for iliffhealers.org.",
+            "support": {
+                "source": "https://github.com/dashifen/iliff-healers-theme/tree/1.0.0",
+                "issues": "https://github.com/dashifen/iliff-healers-theme/issues"
+            },
+            "time": "2020-06-20T15:41:59+00:00"
         },
         {
             "name": "dashifen/memsrvcs-show-download-count",
@@ -776,16 +820,16 @@
         },
         {
             "name": "jaybizzle/crawler-detect",
-            "version": "v1.2.95",
+            "version": "v1.2.96",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JayBizzle/Crawler-Detect.git",
-                "reference": "a7936c4b60c78f8ae9024eeecf7e8d4cf470b730"
+                "reference": "5a53c78644c54a628c3f5ead915c35b489c92239"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/a7936c4b60c78f8ae9024eeecf7e8d4cf470b730",
-                "reference": "a7936c4b60c78f8ae9024eeecf7e8d4cf470b730",
+                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/5a53c78644c54a628c3f5ead915c35b489c92239",
+                "reference": "5a53c78644c54a628c3f5ead915c35b489c92239",
                 "shasum": ""
             },
             "require": {
@@ -821,7 +865,7 @@
                 "crawlerdetect",
                 "php crawler detect"
             ],
-            "time": "2020-04-14T20:42:56+00:00"
+            "time": "2020-06-14T20:37:24+00:00"
         },
         {
             "name": "johnpbloch/wordpress",

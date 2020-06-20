@@ -63,6 +63,10 @@
     {
       "url": "git@github.com:dashifen/iliff-healers-videos.git",
       "type": "vcs"
+    },
+    {
+      "url": "git@github.com:dashifen/iliff-healers-theme.git",
+      "type": "vcs"
     }
   ],
   "require": {
@@ -70,6 +74,7 @@
     "dashifen/acf-sharing-settings": "^1.2",
     "dashifen/anti-brute-squad": "^1.0",
     "dashifen/ceremonies": "^1.0",
+    "dashifen/iliffhealers": "^1",
     "dashifen/iliff-healers-videos": "^1",
     "dashifen/memsrvcs-show-download-count": "^1.0",
     "jaybizzle/crawler-detect": "^1.2",
