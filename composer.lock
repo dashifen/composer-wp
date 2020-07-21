@@ -530,7 +530,7 @@
         },
         {
             "name": "dashifen/iliffhealers",
-            "version": "1.2.2",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/iliff-healers-theme.git",
