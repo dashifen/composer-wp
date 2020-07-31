@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dd28c17a8b66b0de07ced97f7901642e",
+    "content-hash": "75da0254d68541f20a75bc46afe6199f",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -258,22 +258,21 @@
         },
         {
             "name": "dashifen/acf-agent",
-            "version": "1.1.1",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/acf-agents.git",
-                "reference": "69d34d2d00257ad44fe5564b3855102476b5ba40"
+                "reference": "064f79a675c1c0cbdbb0f24390a69275cb38e25e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/acf-agents/zipball/69d34d2d00257ad44fe5564b3855102476b5ba40",
-                "reference": "69d34d2d00257ad44fe5564b3855102476b5ba40",
+                "url": "https://api.github.com/repos/dashifen/acf-agents/zipball/064f79a675c1c0cbdbb0f24390a69275cb38e25e",
+                "reference": "064f79a675c1c0cbdbb0f24390a69275cb38e25e",
                 "shasum": ""
             },
             "require": {
-                "dashifen/wp-handler": "^9.6",
-                "ext-json": "*",
-                "php": ">=7.3"
+                "dashifen/wp-handler": "^10.0",
+                "php": ">=7.4"
             },
             "type": "project",
             "autoload": {
@@ -293,24 +292,24 @@
                 }
             ],
             "description": "An Agent for use with one of my Handler packages that manages ACF data.",
-            "time": "2020-06-13T18:26:33+00:00"
+            "time": "2020-07-31T16:55:00+00:00"
         },
         {
             "name": "dashifen/acf-sharing-settings",
-            "version": "1.5.4",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/acf-sharing-settings.git",
-                "reference": "d668b34a32e47c3fa9f7675c60bc48b9ea65cd51"
+                "reference": "4aa7d23e1e58e5a0968cfb02cfe99af63282025b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/acf-sharing-settings/zipball/d668b34a32e47c3fa9f7675c60bc48b9ea65cd51",
-                "reference": "d668b34a32e47c3fa9f7675c60bc48b9ea65cd51",
+                "url": "https://api.github.com/repos/dashifen/acf-sharing-settings/zipball/4aa7d23e1e58e5a0968cfb02cfe99af63282025b",
+                "reference": "4aa7d23e1e58e5a0968cfb02cfe99af63282025b",
                 "shasum": ""
             },
             "require": {
-                "dashifen/wp-handler": "^9.4",
+                "dashifen/wp-handler": "^10",
                 "timber/timber": "^1.15"
             },
             "type": "wordpress-plugin",
@@ -331,25 +330,25 @@
                 }
             ],
             "description": "An ACF field group for a settings page relating to how a site appears on Twitter and Facebook.",
-            "time": "2020-04-13T23:39:13+00:00"
+            "time": "2020-07-31T17:05:16+00:00"
         },
         {
             "name": "dashifen/anti-brute-squad",
-            "version": "1.3.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/anti-brute-squad.git",
-                "reference": "c6850546e228ce325788471262f887c158d3b90f"
+                "reference": "31854dfe05a97217c310b86fa49fda0abd9c98bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/anti-brute-squad/zipball/c6850546e228ce325788471262f887c158d3b90f",
-                "reference": "c6850546e228ce325788471262f887c158d3b90f",
+                "url": "https://api.github.com/repos/dashifen/anti-brute-squad/zipball/31854dfe05a97217c310b86fa49fda0abd9c98bb",
+                "reference": "31854dfe05a97217c310b86fa49fda0abd9c98bb",
                 "shasum": ""
             },
             "require": {
-                "dashifen/wp-handler": "^9.4",
-                "php": ">=7.1"
+                "dashifen/wp-handler": "^10",
+                "php": ">=7.4"
             },
             "type": "wordpress-muplugin",
             "autoload": {
@@ -368,24 +367,24 @@
                 }
             ],
             "description": "A WordPress MU plugin that prevents brute force attacks by limiting the number of failed login attempts during a browser session.",
-            "time": "2020-06-25T17:58:02+00:00"
+            "time": "2020-07-31T17:03:21+00:00"
         },
         {
             "name": "dashifen/ceremonies",
-            "version": "1.3.1",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/ceremonies.git",
-                "reference": "74239bf37814247fb16480a6dd5dc1fd387e60cc"
+                "reference": "ef1347689ce73cf3423831cd53fe72fa86b29e6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/ceremonies/zipball/74239bf37814247fb16480a6dd5dc1fd387e60cc",
-                "reference": "74239bf37814247fb16480a6dd5dc1fd387e60cc",
+                "url": "https://api.github.com/repos/dashifen/ceremonies/zipball/ef1347689ce73cf3423831cd53fe72fa86b29e6a",
+                "reference": "ef1347689ce73cf3423831cd53fe72fa86b29e6a",
                 "shasum": ""
             },
             "require": {
-                "dashifen/wp-handler": "^9.5"
+                "dashifen/wp-handler": "^10"
             },
             "type": "wordpress-plugin",
             "autoload": {
@@ -405,27 +404,27 @@
             ],
             "description": "A WordPress custom post type for the ceremonies on https://memoriam.services.",
             "support": {
-                "source": "https://github.com/dashifen/ceremonies/tree/1.3.1",
+                "source": "https://github.com/dashifen/ceremonies/tree/1.4.0",
                 "issues": "https://github.com/dashifen/ceremonies/issues"
             },
-            "time": "2020-04-22T16:22:07+00:00"
+            "time": "2020-07-31T17:02:01+00:00"
         },
         {
             "name": "dashifen/collection",
-            "version": "1.0.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/collection.git",
-                "reference": "03ba9bddc0ce0cae3e6e38148ae83f18b1c53a02"
+                "reference": "9aad3915d47ae4e29e44aae0a900a0619f40a357"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/collection/zipball/03ba9bddc0ce0cae3e6e38148ae83f18b1c53a02",
-                "reference": "03ba9bddc0ce0cae3e6e38148ae83f18b1c53a02",
+                "url": "https://api.github.com/repos/dashifen/collection/zipball/9aad3915d47ae4e29e44aae0a900a0619f40a357",
+                "reference": "9aad3915d47ae4e29e44aae0a900a0619f40a357",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=7.4"
             },
             "type": "project",
             "autoload": {
@@ -445,7 +444,7 @@
                 }
             ],
             "description": "An abstract object from which concrete collections can be built.",
-            "time": "2020-01-11T11:15:44+00:00"
+            "time": "2020-07-29T15:00:49+00:00"
         },
         {
             "name": "dashifen/exception",
@@ -487,22 +486,22 @@
         },
         {
             "name": "dashifen/iliff-healers-videos",
-            "version": "1.0.1",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/iliff-healers-videos.git",
-                "reference": "5d4370c86dc46846825bb5c1401aec847ae45efc"
+                "reference": "0269c4ead14a3a9cdc7a81112d48069ba7077b7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/iliff-healers-videos/zipball/5d4370c86dc46846825bb5c1401aec847ae45efc",
-                "reference": "5d4370c86dc46846825bb5c1401aec847ae45efc",
+                "url": "https://api.github.com/repos/dashifen/iliff-healers-videos/zipball/0269c4ead14a3a9cdc7a81112d48069ba7077b7e",
+                "reference": "0269c4ead14a3a9cdc7a81112d48069ba7077b7e",
                 "shasum": ""
             },
             "require": {
-                "dashifen/acf-agent": "^1.1",
-                "dashifen/wp-handler": "^9.6",
-                "dashifen/wp-templates": "^3.2",
+                "dashifen/acf-agent": "^2.2",
+                "dashifen/wp-handler": "^10.0",
+                "dashifen/wp-templates": "^4.0",
                 "php": ">=7.4"
             },
             "type": "wordpress-plugin",
@@ -523,28 +522,28 @@
             ],
             "description": "A custom post type and associated support for the Iliff+Healers Initiative videos.",
             "support": {
-                "source": "https://github.com/dashifen/iliff-healers-videos/tree/1.0.1",
+                "source": "https://github.com/dashifen/iliff-healers-videos/tree/1.2.1",
                 "issues": "https://github.com/dashifen/iliff-healers-videos/issues"
             },
-            "time": "2020-06-20T14:39:07+00:00"
+            "time": "2020-07-31T17:34:05+00:00"
         },
         {
             "name": "dashifen/iliffhealers",
-            "version": "1.2.3",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/iliff-healers-theme.git",
-                "reference": "91b03445cd52da776d31abdc05793bf23f09940f"
+                "reference": "b86e32a3979878c2cfa39cf63f67e9616ca14c05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/iliff-healers-theme/zipball/91b03445cd52da776d31abdc05793bf23f09940f",
-                "reference": "91b03445cd52da776d31abdc05793bf23f09940f",
+                "url": "https://api.github.com/repos/dashifen/iliff-healers-theme/zipball/b86e32a3979878c2cfa39cf63f67e9616ca14c05",
+                "reference": "b86e32a3979878c2cfa39cf63f67e9616ca14c05",
                 "shasum": ""
             },
             "require": {
-                "dashifen/wp-handler": "^9.6",
-                "dashifen/wp-templates": "^3.2",
+                "dashifen/wp-handler": "^10.0",
+                "dashifen/wp-templates": "^4.0",
                 "ext-json": ">=7.4",
                 "php": ">=7.4",
                 "timber/timber": "^1.16"
@@ -567,27 +566,27 @@
             ],
             "description": "A theme for iliffhealers.org.",
             "support": {
-                "source": "https://github.com/dashifen/iliff-healers-theme/tree/1.2.2",
+                "source": "https://github.com/dashifen/iliff-healers-theme/tree/1.4.0",
                 "issues": "https://github.com/dashifen/iliff-healers-theme/issues"
             },
-            "time": "2020-07-21T11:35:49+00:00"
+            "time": "2020-07-31T18:28:39+00:00"
         },
         {
             "name": "dashifen/memsrvcs-show-download-count",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/memsrvcs-show-download-count.git",
-                "reference": "2dc5992650906e565a89841e0a2f874fb6d02f70"
+                "reference": "3a247306e03401a2dc82188cad41a32fa6c56061"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/memsrvcs-show-download-count/zipball/2dc5992650906e565a89841e0a2f874fb6d02f70",
-                "reference": "2dc5992650906e565a89841e0a2f874fb6d02f70",
+                "url": "https://api.github.com/repos/dashifen/memsrvcs-show-download-count/zipball/3a247306e03401a2dc82188cad41a32fa6c56061",
+                "reference": "3a247306e03401a2dc82188cad41a32fa6c56061",
                 "shasum": ""
             },
             "require": {
-                "dashifen/wp-handler": "^9.4"
+                "dashifen/wp-handler": "^10.0"
             },
             "type": "wordpress-plugin",
             "autoload": {
@@ -606,26 +605,26 @@
                 }
             ],
             "description": "Displays the download count for PDFs on the Memoriam Services site",
-            "time": "2020-04-07T18:34:34+00:00"
+            "time": "2020-07-31T16:49:49+00:00"
         },
         {
             "name": "dashifen/repository",
-            "version": "2.0.4",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/repository.git",
-                "reference": "2d3e0d1b9b96908c0aeed3a730123bd26eb9f344"
+                "reference": "83ce68039cc5c0cae1c35c3da80d9d3e23b57d37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/repository/zipball/2d3e0d1b9b96908c0aeed3a730123bd26eb9f344",
-                "reference": "2d3e0d1b9b96908c0aeed3a730123bd26eb9f344",
+                "url": "https://api.github.com/repos/dashifen/repository/zipball/83ce68039cc5c0cae1c35c3da80d9d3e23b57d37",
+                "reference": "83ce68039cc5c0cae1c35c3da80d9d3e23b57d37",
                 "shasum": ""
             },
             "require": {
                 "dashifen/exception": "^1",
                 "ext-json": "*",
-                "php": ">=7.3"
+                "php": ">=7.4"
             },
             "type": "library",
             "autoload": {
@@ -645,7 +644,7 @@
                 }
             ],
             "description": "An object with read-only protected properties from which other objects can be extened.",
-            "time": "2020-01-24T18:43:36+00:00"
+            "time": "2020-07-29T15:21:59+00:00"
         },
         {
             "name": "dashifen/transformer",
@@ -687,24 +686,24 @@
         },
         {
             "name": "dashifen/wp-handler",
-            "version": "9.7.2",
+            "version": "10.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/wp-handler.git",
-                "reference": "c2760cdd96e1cd87303636ca9034c7d8760ddcc7"
+                "reference": "8145dbca30d936c688e3f9944c9d5c522660d288"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/wp-handler/zipball/c2760cdd96e1cd87303636ca9034c7d8760ddcc7",
-                "reference": "c2760cdd96e1cd87303636ca9034c7d8760ddcc7",
+                "url": "https://api.github.com/repos/dashifen/wp-handler/zipball/8145dbca30d936c688e3f9944c9d5c522660d288",
+                "reference": "8145dbca30d936c688e3f9944c9d5c522660d288",
                 "shasum": ""
             },
             "require": {
-                "dashifen/collection": "^1",
+                "dashifen/collection": "^2",
                 "dashifen/exception": "^1",
-                "dashifen/repository": "^2",
+                "dashifen/repository": "^3",
                 "dashifen/transformer": "^2",
-                "php": ">=7.3"
+                "php": ">=7.4"
             },
             "type": "project",
             "autoload": {
@@ -724,25 +723,25 @@
                 }
             ],
             "description": "An object to define handlers for various WordPress action and filter hooks using protected methods. ",
-            "time": "2020-07-19T22:19:30+00:00"
+            "time": "2020-07-31T17:38:47+00:00"
         },
         {
             "name": "dashifen/wp-templates",
-            "version": "3.2.0",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/wp-templates.git",
-                "reference": "99e876e87153fe0d45f7dcebaa0acc94985f1f2a"
+                "reference": "a2a7c63303e44b699d47b46697f35a0bce0058d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/wp-templates/zipball/99e876e87153fe0d45f7dcebaa0acc94985f1f2a",
-                "reference": "99e876e87153fe0d45f7dcebaa0acc94985f1f2a",
+                "url": "https://api.github.com/repos/dashifen/wp-templates/zipball/a2a7c63303e44b699d47b46697f35a0bce0058d1",
+                "reference": "a2a7c63303e44b699d47b46697f35a0bce0058d1",
                 "shasum": ""
             },
             "require": {
-                "dashifen/repository": "^2",
-                "php": ">=7.3"
+                "dashifen/repository": "^3",
+                "php": ">=7.4"
             },
             "type": "project",
             "autoload": {
@@ -762,7 +761,7 @@
                 }
             ],
             "description": "A series of objects that encapsulate behaviors for WordPress templates.",
-            "time": "2020-02-16T16:32:33+00:00"
+            "time": "2020-07-31T17:25:58+00:00"
         },
         {
             "name": "ffraenz/private-composer-installer",
@@ -1543,15 +1542,15 @@
         },
         {
             "name": "wpackagist-theme/go",
-            "version": "1.3.2",
+            "version": "1.3.3",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/go/",
-                "reference": "1.3.2"
+                "reference": "1.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/go.1.3.2.zip"
+                "url": "https://downloads.wordpress.org/theme/go.1.3.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
