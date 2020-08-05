@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "75da0254d68541f20a75bc46afe6199f",
+    "content-hash": "589084d0bc79368c48da3e85a798b7eb",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -295,6 +295,47 @@
             "time": "2020-07-31T16:55:00+00:00"
         },
         {
+            "name": "dashifen/acf-contact-form",
+            "version": "0.9.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dashifen/acf-contact-form.git",
+                "reference": "cb57f1ab88502c5ba32f42d9b4d9f70da57285cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dashifen/acf-contact-form/zipball/cb57f1ab88502c5ba32f42d9b4d9f70da57285cc",
+                "reference": "cb57f1ab88502c5ba32f42d9b4d9f70da57285cc",
+                "shasum": ""
+            },
+            "require": {
+                "dashifen/acf-agent": "^2.2",
+                "dashifen/wp-handler": "^10.0",
+                "ext-json": "*",
+                "php": ">=7.4",
+                "timber/timber": "^1.17"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Dashifen\\ContactForm\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Dashifen Kees",
+                    "email": "dashifen@dashifen.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "A WordPress plugin that uses ACF to present a contact form.",
+            "time": "2020-08-05T23:54:29+00:00"
+        },
+        {
             "name": "dashifen/acf-sharing-settings",
             "version": "1.6.0",
             "source": {
@@ -447,6 +488,40 @@
             "time": "2020-07-29T15:00:49+00:00"
         },
         {
+            "name": "dashifen/debugging",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dashifen/debugging.git",
+                "reference": "2443dbf994351e94ffa36ea992b1a5b8b87250e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dashifen/debugging/zipball/2443dbf994351e94ffa36ea992b1a5b8b87250e8",
+                "reference": "2443dbf994351e94ffa36ea992b1a5b8b87250e8",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dashifen\\Debugging\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Dashifen Kees",
+                    "email": "dashifen@dashifen.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "A PHP Trait that defines static methods used for on-screen debugging.",
+            "time": "2020-08-02T14:27:05+00:00"
+        },
+        {
             "name": "dashifen/exception",
             "version": "1.2.0",
             "source": {
@@ -529,16 +604,16 @@
         },
         {
             "name": "dashifen/iliffhealers",
-            "version": "1.4.0",
+            "version": "1.5.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/iliff-healers-theme.git",
-                "reference": "b86e32a3979878c2cfa39cf63f67e9616ca14c05"
+                "reference": "910a4b87270bc02434c5ebb1d0faa408471985e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/iliff-healers-theme/zipball/b86e32a3979878c2cfa39cf63f67e9616ca14c05",
-                "reference": "b86e32a3979878c2cfa39cf63f67e9616ca14c05",
+                "url": "https://api.github.com/repos/dashifen/iliff-healers-theme/zipball/910a4b87270bc02434c5ebb1d0faa408471985e3",
+                "reference": "910a4b87270bc02434c5ebb1d0faa408471985e3",
                 "shasum": ""
             },
             "require": {
@@ -566,10 +641,10 @@
             ],
             "description": "A theme for iliffhealers.org.",
             "support": {
-                "source": "https://github.com/dashifen/iliff-healers-theme/tree/1.4.0",
+                "source": "https://github.com/dashifen/iliff-healers-theme/tree/1.5.4.2",
                 "issues": "https://github.com/dashifen/iliff-healers-theme/issues"
             },
-            "time": "2020-07-31T18:28:39+00:00"
+            "time": "2020-08-05T23:46:01+00:00"
         },
         {
             "name": "dashifen/memsrvcs-show-download-count",
@@ -685,17 +760,54 @@
             "time": "2020-03-11T14:56:21+00:00"
         },
         {
-            "name": "dashifen/wp-handler",
-            "version": "10.0.2",
+            "name": "dashifen/wp-debugging",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/dashifen/wp-handler.git",
-                "reference": "8145dbca30d936c688e3f9944c9d5c522660d288"
+                "url": "https://github.com/dashifen/wp-debugging.git",
+                "reference": "ace122de19a558bf2596d809986b70359a4d7026"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/wp-handler/zipball/8145dbca30d936c688e3f9944c9d5c522660d288",
-                "reference": "8145dbca30d936c688e3f9944c9d5c522660d288",
+                "url": "https://api.github.com/repos/dashifen/wp-debugging/zipball/ace122de19a558bf2596d809986b70359a4d7026",
+                "reference": "ace122de19a558bf2596d809986b70359a4d7026",
+                "shasum": ""
+            },
+            "require": {
+                "dashifen/debugging": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dashifen\\WPDebugging\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "David Dashifen Kees",
+                    "email": "dashifen@dashifen.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "A PHP trait that can be used by other objects for on-screen debugging within a WordPress environment.",
+            "time": "2020-08-02T15:02:40+00:00"
+        },
+        {
+            "name": "dashifen/wp-handler",
+            "version": "10.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dashifen/wp-handler.git",
+                "reference": "cd1aa3f8bf9f04f739844a686ca83b813854cd8f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dashifen/wp-handler/zipball/cd1aa3f8bf9f04f739844a686ca83b813854cd8f",
+                "reference": "cd1aa3f8bf9f04f739844a686ca83b813854cd8f",
                 "shasum": ""
             },
             "require": {
@@ -703,6 +815,7 @@
                 "dashifen/exception": "^1",
                 "dashifen/repository": "^3",
                 "dashifen/transformer": "^2",
+                "dashifen/wp-debugging": "^1",
                 "php": ">=7.4"
             },
             "type": "project",
@@ -723,7 +836,7 @@
                 }
             ],
             "description": "An object to define handlers for various WordPress action and filter hooks using protected methods. ",
-            "time": "2020-07-31T17:38:47+00:00"
+            "time": "2020-08-05T11:53:31+00:00"
         },
         {
             "name": "dashifen/wp-templates",
@@ -1113,7 +1226,7 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -1189,7 +1302,7 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -1331,16 +1444,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.13.0",
+            "version": "v2.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "46a612ba1bbf6ee1c58acabacd868212ff8a2911"
+                "reference": "57e96259776ddcacf1814885fc3950460c8e18ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/46a612ba1bbf6ee1c58acabacd868212ff8a2911",
-                "reference": "46a612ba1bbf6ee1c58acabacd868212ff8a2911",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/57e96259776ddcacf1814885fc3950460c8e18ef",
+                "reference": "57e96259776ddcacf1814885fc3950460c8e18ef",
                 "shasum": ""
             },
             "require": {
@@ -1394,18 +1507,6 @@
             ],
             "funding": [
                 {
-                    "url": "https://certification.symfony.com/",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://live.symfony.com/",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://symfony.com/cloud/",
-                    "type": "custom"
-                },
-                {
                     "url": "https://github.com/fabpot",
                     "type": "github"
                 },
@@ -1414,7 +1515,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-07-05T13:08:05+00:00"
+            "time": "2020-08-05T15:09:04+00:00"
         },
         {
             "name": "upstatement/routes",
@@ -1560,15 +1661,15 @@
         },
         {
             "name": "wpackagist-theme/neve",
-            "version": "2.7.5",
+            "version": "2.7.6",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/neve/",
-                "reference": "2.7.5"
+                "reference": "2.7.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/neve.2.7.5.zip"
+                "url": "https://downloads.wordpress.org/theme/neve.2.7.6.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
