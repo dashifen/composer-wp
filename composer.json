@@ -40,7 +40,7 @@
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "5.8.12",
+        "version": "5.8.14",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -53,11 +53,11 @@
       }
     },
     {
-      "url": "git@github.com:dashifen/dashifen2020.git",
+      "url": "git@github.com:dashifen/ceremonies.git",
       "type": "vcs"
     },
     {
-      "url": "git@github.com:dashifen/ceremonies.git",
+      "url": "git@github.com:dashifen/dashifen2020.git",
       "type": "vcs"
     },
     {
@@ -66,6 +66,10 @@
     },
     {
       "url": "git@github.com:dashifen/iliff-healers-theme.git",
+      "type": "vcs"
+    },
+    {
+      "url": "git@github.com:dashifen/secondly.git",
       "type": "vcs"
     }
   ],
@@ -78,8 +82,9 @@
     "dashifen/iliffhealers": "^1.4",
     "dashifen/iliff-healers-videos": "^1.2",
     "dashifen/memsrvcs-show-download-count": "^1.2",
+    "dashifen/secondly": "dev-release",
     "jaybizzle/crawler-detect": "^1",
-    "johnpbloch/wordpress": "5.4.*",
+    "johnpbloch/wordpress": "5.5.*",
     "lkwdwrd/wp-muplugin-loader": "^1",
     "timber/timber": "^1",
     "wpackagist-theme/go": "^1",
