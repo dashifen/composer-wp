@@ -12,6 +12,26 @@
       "role": "developer"
     }
   ],
+  "require": {
+    "advanced-custom-fields/advanced-custom-fields-pro": "*",
+    "dashifen/abbreviator": "^1.0",
+    "dashifen/acf-sharing-settings": "^1.6",
+    "dashifen/acf-contact-form": ">=0.9 <2.0",
+    "dashifen/anti-brute-squad": "^2.0",
+    "dashifen/ceremonies": "^1.4",
+    "dashifen/deck-block": "^1.0",
+    "dashifen/firefly-theme": "dev-main",
+    "dashifen/iliffhealers": "^1.4",
+    "dashifen/iliff-healers-videos": "^1.2",
+    "dashifen/memsrvcs-show-download-count": "^1.2",
+    "dashifen/mu-plugin-loader": "^1.0",
+    "jaybizzle/crawler-detect": "^1.0",
+    "johnpbloch/wordpress": "^5.6",
+    "timber/timber": "^1.0",
+    "wpackagist-theme/go": "^1.0",
+    "wpackagist-theme/neve": "^2.0",
+    "wpackagist-theme/twentytwenty": "^1.0"
+  },
   "config": {
     "vendor-dir": "deps/vendor",
     "optimize-autoloader": true,
@@ -40,7 +60,7 @@
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "5.8.14",
+        "version": "5.9.5",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -48,9 +68,13 @@
         },
         "require": {
           "composer/installers": "^1.4",
-          "ffraenz/private-composer-installer": "^2.0"
+          "ffraenz/private-composer-installer": "^5.0"
         }
       }
+    },
+    {
+      "url": "git@github.com:dashifen/abbreviator.git",
+      "type": "vcs"
     },
     {
       "url": "git@github.com:dashifen/ceremonies.git",
@@ -61,7 +85,11 @@
       "type": "vcs"
     },
     {
-      "url": "git@github.com:dashifen/iliff-healers-videos.git",
+      "url": "git@github.com:dashifen/deck-block.git",
+      "type": "vcs"
+    },
+    {
+      "url": "git@github.com:dashifen/firefly-theme.git",
       "type": "vcs"
     },
     {
@@ -69,26 +97,16 @@
       "type": "vcs"
     },
     {
-      "url": "git@github.com:dashifen/secondly.git",
+      "url": "git@github.com:dashifen/iliff-healers-videos.git",
+      "type": "vcs"
+    },
+    {
+      "url": "git@github.com:dashifen/mu-plugin-loader.git",
       "type": "vcs"
     }
   ],
-  "require": {
-    "advanced-custom-fields/advanced-custom-fields-pro": "*",
-    "dashifen/acf-sharing-settings": "^1.6",
-    "dashifen/acf-contact-form": ">=0.9 <2.0",
-    "dashifen/anti-brute-squad": "^2.0",
-    "dashifen/ceremonies": "^1.4",
-    "dashifen/iliffhealers": "^1.4",
-    "dashifen/iliff-healers-videos": "^1.2",
-    "dashifen/memsrvcs-show-download-count": "^1.2",
-    "dashifen/secondly": "dev-release",
-    "jaybizzle/crawler-detect": "^1",
-    "johnpbloch/wordpress": "5.5.*",
-    "lkwdwrd/wp-muplugin-loader": "^1",
-    "timber/timber": "^1",
-    "wpackagist-theme/go": "^1",
-    "wpackagist-theme/neve": "^2",
-    "wpackagist-theme/twentytwenty": "^1"
+  "scripts": {
+    "post-update-cmd": "cp deps/mu-plugins/mu-plugin-loader/mu-plugin-loader-loader.php deps/mu-plugins/mu-plugin-loader-loader.php",
+    "reset": "rm -rf deps && rm -rf web && rm composer.lock"
   }
 }
