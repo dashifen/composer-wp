@@ -28,7 +28,13 @@
     "jaybizzle/crawler-detect": "^1.0",
     "johnpbloch/wordpress": "^5.6",
     "timber/timber": "^1.0",
+    "wpackagist-plugin/advanced-forms": "^1.7",
     "wpackagist-plugin/multisite-enhancements": "^1.6",
+    "wpackagist-plugin/coblocks": "^2.8",
+    "wpackagist-plugin/enable-media-replace": "^3.5",
+    "wpackagist-plugin/otter-blocks": "^1.6",
+    "wpackagist-plugin/themeisle-companion": "^2.10",
+    "wpackagist-plugin/redirection": "^5.0",
     "wpackagist-theme/go": "^1.0",
     "wpackagist-theme/neve": "^2.0",
     "wpackagist-theme/twentytwenty": "^1.0"
