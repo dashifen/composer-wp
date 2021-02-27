@@ -19,6 +19,7 @@
     "dashifen/acf-contact-form": ">=0.9 <2.0",
     "dashifen/anti-brute-squad": "^2.0",
     "dashifen/ceremonies": "^1.4",
+    "dashifen/conscientious-contact-form": "^1.0",
     "dashifen/deck-block": "^1.0",
     "dashifen/firefly-theme": "dev-main",
     "dashifen/iliffhealers": "^1.4",
@@ -84,6 +85,10 @@
     },
     {
       "url": "git@github.com:dashifen/ceremonies.git",
+      "type": "vcs"
+    },
+    {
+      "url": "git@github.com:dashifen/conscientious-contact-form.git",
       "type": "vcs"
     },
     {
