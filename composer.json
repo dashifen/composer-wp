@@ -35,6 +35,7 @@
     "wpackagist-plugin/otter-blocks": "^1.6",
     "wpackagist-plugin/themeisle-companion": "^2.10",
     "wpackagist-plugin/redirection": "^5.0",
+    "wpackagist-plugin/wordpress-importer": "^0.7",
     "wpackagist-theme/go": "^1.0",
     "wpackagist-theme/neve": "^2.0",
     "wpackagist-theme/twentytwenty": "^1.0"
