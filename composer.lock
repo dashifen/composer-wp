@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "998c7818aea6249d46117006eccbc8e0",
+    "content-hash": "2f2d97bed89db79fbd7962fcd4b0d579",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -872,6 +872,46 @@
                 "issues": "https://github.com/dashifen/iliff-healers-theme/issues"
             },
             "time": "2020-08-05T23:46:01+00:00"
+        },
+        {
+            "name": "dashifen/login-required",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dashifen/login-required.git",
+                "reference": "63d0f16585f06a2d3abd70463d73afbe613f6edf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dashifen/login-required/zipball/63d0f16585f06a2d3abd70463d73afbe613f6edf",
+                "reference": "63d0f16585f06a2d3abd70463d73afbe613f6edf",
+                "shasum": ""
+            },
+            "require": {
+                "dashifen/wp-handler": "^10.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dashifen\\LoginRequired\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Dashifen Kees",
+                    "email": "dashifen@dashifen.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "When enabled, requires that a visitor be logged into the site before displaying the site.",
+            "support": {
+                "source": "https://github.com/dashifen/login-required/tree/1.0.0",
+                "issues": "https://github.com/dashifen/login-required/issues"
+            },
+            "time": "2021-03-19T17:59:53+00:00"
         },
         {
             "name": "dashifen/mu-plugin-loader",
