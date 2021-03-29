@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2f2d97bed89db79fbd7962fcd4b0d579",
+    "content-hash": "51dfb3c7cfc4f21251714e07c5d27a09",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -749,12 +749,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/firefly-theme.git",
-                "reference": "8bd0565f2255a7730e898b02a5ca3126c6b8276f"
+                "reference": "d802b2d1d4c07bf3ca751fa436fb4942ac6ca750"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/firefly-theme/zipball/8bd0565f2255a7730e898b02a5ca3126c6b8276f",
-                "reference": "8bd0565f2255a7730e898b02a5ca3126c6b8276f",
+                "url": "https://api.github.com/repos/dashifen/firefly-theme/zipball/d802b2d1d4c07bf3ca751fa436fb4942ac6ca750",
+                "reference": "d802b2d1d4c07bf3ca751fa436fb4942ac6ca750",
                 "shasum": ""
             },
             "require": {
@@ -784,7 +784,7 @@
                 "source": "https://github.com/dashifen/firefly-theme/tree/main",
                 "issues": "https://github.com/dashifen/firefly-theme/issues"
             },
-            "time": "2021-02-18T21:24:32+00:00"
+            "time": "2021-03-28T16:54:51+00:00"
         },
         {
             "name": "dashifen/iliff-healers-videos",
@@ -875,22 +875,22 @@
         },
         {
             "name": "dashifen/login-required",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/login-required.git",
-                "reference": "63d0f16585f06a2d3abd70463d73afbe613f6edf"
+                "reference": "63f70b31cb9747c8a78483dc50c23c9880dddb32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/login-required/zipball/63d0f16585f06a2d3abd70463d73afbe613f6edf",
-                "reference": "63d0f16585f06a2d3abd70463d73afbe613f6edf",
+                "url": "https://api.github.com/repos/dashifen/login-required/zipball/63f70b31cb9747c8a78483dc50c23c9880dddb32",
+                "reference": "63f70b31cb9747c8a78483dc50c23c9880dddb32",
                 "shasum": ""
             },
             "require": {
                 "dashifen/wp-handler": "^10.3"
             },
-            "type": "library",
+            "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
                     "Dashifen\\LoginRequired\\": "src"
@@ -908,10 +908,10 @@
             ],
             "description": "When enabled, requires that a visitor be logged into the site before displaying the site.",
             "support": {
-                "source": "https://github.com/dashifen/login-required/tree/1.0.0",
+                "source": "https://github.com/dashifen/login-required/tree/1.0.1",
                 "issues": "https://github.com/dashifen/login-required/issues"
             },
-            "time": "2021-03-19T17:59:53+00:00"
+            "time": "2021-03-19T18:05:03+00:00"
         },
         {
             "name": "dashifen/mu-plugin-loader",
@@ -1045,7 +1045,7 @@
         },
         {
             "name": "dashifen/validator",
-            "version": "2.2.1",
+            "version": "2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/validator.git",
@@ -1086,7 +1086,7 @@
             "description": "An interface and abstract class useful for the production of objects which validate data.",
             "support": {
                 "issues": "https://github.com/dashifen/validator/issues",
-                "source": "https://github.com/dashifen/validator/tree/2.2.1"
+                "source": "https://github.com/dashifen/validator/tree/2.2.2"
             },
             "time": "2021-02-22T13:26:51+00:00"
         },
@@ -1133,16 +1133,16 @@
         },
         {
             "name": "dashifen/wp-handler",
-            "version": "10.3.2",
+            "version": "10.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/wp-handler.git",
-                "reference": "bfcc8816b90ad69995eb17c7255f4cd374273086"
+                "reference": "94163babe53a0afe99699e65d2dba5308888285c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/wp-handler/zipball/bfcc8816b90ad69995eb17c7255f4cd374273086",
-                "reference": "bfcc8816b90ad69995eb17c7255f4cd374273086",
+                "url": "https://api.github.com/repos/dashifen/wp-handler/zipball/94163babe53a0afe99699e65d2dba5308888285c",
+                "reference": "94163babe53a0afe99699e65d2dba5308888285c",
                 "shasum": ""
             },
             "require": {
@@ -1173,9 +1173,9 @@
             "description": "An object to define handlers for various WordPress action and filter hooks using protected methods. ",
             "support": {
                 "issues": "https://github.com/dashifen/wp-handler/issues",
-                "source": "https://github.com/dashifen/wp-handler/tree/10.3.2"
+                "source": "https://github.com/dashifen/wp-handler/tree/10.5.1"
             },
-            "time": "2021-02-27T12:13:43+00:00"
+            "time": "2021-03-24T13:33:19+00:00"
         },
         {
             "name": "dashifen/wp-templates",
@@ -2213,15 +2213,15 @@
         },
         {
             "name": "wpackagist-plugin/coblocks",
-            "version": "2.9.0",
+            "version": "2.9.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/coblocks/",
-                "reference": "tags/2.9.0"
+                "reference": "tags/2.9.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/coblocks.2.9.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/coblocks.2.9.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2267,15 +2267,15 @@
         },
         {
             "name": "wpackagist-plugin/otter-blocks",
-            "version": "1.6.1",
+            "version": "1.6.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/otter-blocks/",
-                "reference": "tags/1.6.1"
+                "reference": "tags/1.6.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/otter-blocks.1.6.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/otter-blocks.1.6.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
