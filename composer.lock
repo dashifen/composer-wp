@@ -749,12 +749,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/firefly-theme.git",
-                "reference": "ba4553777acf81f380779e0a5abd29f787827122"
+                "reference": "b82e39267cd661c956c52d6a1646fa3abb791c40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/firefly-theme/zipball/ba4553777acf81f380779e0a5abd29f787827122",
-                "reference": "ba4553777acf81f380779e0a5abd29f787827122",
+                "url": "https://api.github.com/repos/dashifen/firefly-theme/zipball/b82e39267cd661c956c52d6a1646fa3abb791c40",
+                "reference": "b82e39267cd661c956c52d6a1646fa3abb791c40",
                 "shasum": ""
             },
             "require": {
@@ -784,7 +784,7 @@
                 "source": "https://github.com/dashifen/firefly-theme/tree/main",
                 "issues": "https://github.com/dashifen/firefly-theme/issues"
             },
-            "time": "2021-03-29T10:55:31+00:00"
+            "time": "2021-03-29T11:10:02+00:00"
         },
         {
             "name": "dashifen/iliff-healers-videos",
