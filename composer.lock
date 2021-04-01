@@ -749,12 +749,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/firefly-theme.git",
-                "reference": "b82e39267cd661c956c52d6a1646fa3abb791c40"
+                "reference": "5af9ce9c8ebd698988a4ddb37b4065202d17d36a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/firefly-theme/zipball/b82e39267cd661c956c52d6a1646fa3abb791c40",
-                "reference": "b82e39267cd661c956c52d6a1646fa3abb791c40",
+                "url": "https://api.github.com/repos/dashifen/firefly-theme/zipball/5af9ce9c8ebd698988a4ddb37b4065202d17d36a",
+                "reference": "5af9ce9c8ebd698988a4ddb37b4065202d17d36a",
                 "shasum": ""
             },
             "require": {
@@ -784,7 +784,7 @@
                 "source": "https://github.com/dashifen/firefly-theme/tree/main",
                 "issues": "https://github.com/dashifen/firefly-theme/issues"
             },
-            "time": "2021-03-29T11:10:02+00:00"
+            "time": "2021-04-01T10:58:59+00:00"
         },
         {
             "name": "dashifen/iliff-healers-videos",
@@ -2267,15 +2267,15 @@
         },
         {
             "name": "wpackagist-plugin/otter-blocks",
-            "version": "1.6.2",
+            "version": "1.6.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/otter-blocks/",
-                "reference": "tags/1.6.2"
+                "reference": "tags/1.6.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/otter-blocks.1.6.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/otter-blocks.1.6.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2339,15 +2339,15 @@
         },
         {
             "name": "wpackagist-theme/go",
-            "version": "1.4.2",
+            "version": "1.4.3",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/go/",
-                "reference": "1.4.2"
+                "reference": "1.4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/go.1.4.2.zip"
+                "url": "https://downloads.wordpress.org/theme/go.1.4.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
