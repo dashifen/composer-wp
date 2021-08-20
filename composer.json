@@ -35,11 +35,11 @@
     "wpackagist-plugin/coblocks": "^2.8",
     "wpackagist-plugin/enable-media-replace": "^3.5",
     "wpackagist-plugin/otter-blocks": "^1.6",
-    "wpackagist-plugin/themeisle-companion": "^3.0",
+    "wpackagist-plugin/themeisle-companion": "^2.10",
     "wpackagist-plugin/redirection": "^5.0",
     "wpackagist-plugin/wordpress-importer": "^0.7",
     "wpackagist-theme/go": "^1.0",
-    "wpackagist-theme/neve": "^2.0",
+    "wpackagist-theme/neve": "^3.0",
     "wpackagist-theme/twentytwenty": "^1.0"
   },
   "config": {
@@ -70,7 +70,7 @@
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "5.9.6",
+        "version": "5.9.9",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
