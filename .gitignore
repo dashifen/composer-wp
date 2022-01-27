@@ -4,15 +4,12 @@
 
 ### Project
 
-deps
 public_html
-web
 
 ### Config
 
 .env
 .npmrc
-.env.js
 wp-config.php
 
 ### Windows
