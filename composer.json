@@ -27,6 +27,7 @@
     "dashifen/iliff-healers-videos": "^2.2",
     "dashifen/login-required": "^2.0",
     "dashifen/mu-plugin-loader": "^2.0",
+    "dashifen/simple-events": "dev-main",
     "dashifen/sr5-limit-calculator": "^2.0",
     "jaybizzle/crawler-detect": "^1.0",
     "johnpbloch/wordpress": "^5.8",
@@ -48,7 +49,7 @@
     "preferred-install": "dist",
     "process-timeout": 300,
     "sort-packages": true,
-    "vendor-dir": "web/wp-content/vendor",
+    "vendor-dir": "public_html/wp-content/vendor",
     "allow-plugins": {
       "composer/installers": true,
       "ffraenz/private-composer-installer": true,
@@ -56,18 +57,18 @@
     }
   },
   "extra": {
-    "wordpress-install-dir": "web",
+    "wordpress-install-dir": "public_html",
     "installer-paths": {
-      "web/wp-content/plugins/{$name}": [
+      "public_html/wp-content/plugins/{$name}/": [
         "type:wordpress-plugin"
       ],
-      "web/wp-content/themes/{$name}": [
+      "public_html/wp-content/themes/{$name}/": [
         "type:wordpress-theme"
       ],
-      "web/wp-content/mu-plugins/{$name}": [
+      "public_html/wp-content/mu-plugins/{$name}/": [
         "type:wordpress-muplugin"
       ],
-      "web/wp-content/{$name}": [
+      "public_html/wp-content/{$name}": [
         "type:wordpress-dropin"
       ]
     }
@@ -134,12 +135,16 @@
       "type": "vcs"
     },
     {
+      "url": "git@github.com:dashifen/simple-events.git",
+      "type": "vcs"
+    },
+    {
       "url": "git@github.com:dashifen/sr5-limit-calculator.git",
       "type": "vcs"
     }
   ],
   "scripts": {
-    "post-update-cmd": "cp web/wp-content/mu-plugins/mu-plugin-loader/mu-plugin-loader-loader.php web/wp-content/mu-plugins/mu-plugin-loader-loader.php",
-    "reset": "rm -rf web && rm composer.lock"
+    "post-update-cmd": "cp public_html/wp-content/mu-plugins/mu-plugin-loader/mu-plugin-loader-loader.php public_html/wp-content/mu-plugins/mu-plugin-loader-loader.php",
+    "reset": "rm -rf public_html && rm composer.lock"
   }
 }
