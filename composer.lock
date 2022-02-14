@@ -362,19 +362,20 @@
         },
         {
             "name": "dashifen/acf-sharing-settings",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/acf-sharing-settings.git",
-                "reference": "7bb1140b0eda834644e9345bbb557632d2e611c1"
+                "reference": "79494ae69cf4bd2e7f98341c8162fddee0cb50b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/acf-sharing-settings/zipball/7bb1140b0eda834644e9345bbb557632d2e611c1",
-                "reference": "7bb1140b0eda834644e9345bbb557632d2e611c1",
+                "url": "https://api.github.com/repos/dashifen/acf-sharing-settings/zipball/79494ae69cf4bd2e7f98341c8162fddee0cb50b2",
+                "reference": "79494ae69cf4bd2e7f98341c8162fddee0cb50b2",
                 "shasum": ""
             },
             "require": {
+                "advanced-custom-fields/advanced-custom-fields-pro": "*",
                 "dashifen/wp-handler": "^10",
                 "timber/timber": "^1.15"
             },
@@ -398,9 +399,9 @@
             "description": "An ACF field group for a settings page relating to how a site appears on Twitter and Facebook.",
             "support": {
                 "issues": "https://github.com/dashifen/acf-sharing-settings/issues",
-                "source": "https://github.com/dashifen/acf-sharing-settings/tree/2.0.0"
+                "source": "https://github.com/dashifen/acf-sharing-settings/tree/2.1.0"
             },
-            "time": "2021-10-08T10:33:30+00:00"
+            "time": "2022-02-14T16:41:21+00:00"
         },
         {
             "name": "dashifen/anti-brute-squad",
@@ -776,12 +777,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/firefly-theme.git",
-                "reference": "a3a0a6e624050d1a4ef0b0500a7b6a905d7de423"
+                "reference": "dc2b761f6cc9b52015bc56f0119e5d398addeeb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/firefly-theme/zipball/a3a0a6e624050d1a4ef0b0500a7b6a905d7de423",
-                "reference": "a3a0a6e624050d1a4ef0b0500a7b6a905d7de423",
+                "url": "https://api.github.com/repos/dashifen/firefly-theme/zipball/dc2b761f6cc9b52015bc56f0119e5d398addeeb7",
+                "reference": "dc2b761f6cc9b52015bc56f0119e5d398addeeb7",
                 "shasum": ""
             },
             "require": {
@@ -811,7 +812,7 @@
                 "source": "https://github.com/dashifen/firefly-theme/tree/main",
                 "issues": "https://github.com/dashifen/firefly-theme/issues"
             },
-            "time": "2022-01-27T00:20:25+00:00"
+            "time": "2022-02-14T17:48:26+00:00"
         },
         {
             "name": "dashifen/iliff-healers-videos",
@@ -1906,12 +1907,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Mbstring\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1983,12 +1984,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php72\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php72\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2059,12 +2060,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php80\\": ""
-                },
                 "files": [
                     "bootstrap.php"
                 ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php80\\": ""
+                },
                 "classmap": [
                     "Resources/stubs"
                 ]
@@ -2259,16 +2260,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.14.10",
+            "version": "v2.14.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "95fb194cd4dd6ac373a27af2bde2bad5d3f27aba"
+                "reference": "66baa66f29ee30e487e05f1679903e36eb01d727"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/95fb194cd4dd6ac373a27af2bde2bad5d3f27aba",
-                "reference": "95fb194cd4dd6ac373a27af2bde2bad5d3f27aba",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/66baa66f29ee30e487e05f1679903e36eb01d727",
+                "reference": "66baa66f29ee30e487e05f1679903e36eb01d727",
                 "shasum": ""
             },
             "require": {
@@ -2323,7 +2324,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v2.14.10"
+                "source": "https://github.com/twigphp/Twig/tree/v2.14.11"
             },
             "funding": [
                 {
@@ -2335,7 +2336,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-03T21:13:26+00:00"
+            "time": "2022-02-04T06:57:25+00:00"
         },
         {
             "name": "upstatement/routes",
@@ -2493,15 +2494,15 @@
         },
         {
             "name": "wpackagist-plugin/coblocks",
-            "version": "2.21.0",
+            "version": "2.21.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/coblocks/",
-                "reference": "tags/2.21.0"
+                "reference": "tags/2.21.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/coblocks.2.21.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/coblocks.2.21.6.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -2547,15 +2548,15 @@
         },
         {
             "name": "wpackagist-plugin/otter-blocks",
-            "version": "1.7.4",
+            "version": "1.7.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/otter-blocks/",
-                "reference": "tags/1.7.4"
+                "reference": "tags/1.7.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/otter-blocks.1.7.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/otter-blocks.1.7.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -2565,15 +2566,15 @@
         },
         {
             "name": "wpackagist-plugin/redirection",
-            "version": "5.2.2",
+            "version": "5.2.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redirection/",
-                "reference": "tags/5.2.2"
+                "reference": "tags/5.2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redirection.5.2.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.2.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -2637,15 +2638,15 @@
         },
         {
             "name": "wpackagist-theme/neve",
-            "version": "3.1.4",
+            "version": "3.1.5",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/neve/",
-                "reference": "3.1.4"
+                "reference": "3.1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/neve.3.1.4.zip"
+                "url": "https://downloads.wordpress.org/theme/neve.3.1.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
