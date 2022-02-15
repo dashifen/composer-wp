@@ -568,16 +568,16 @@
         },
         {
             "name": "dashifen/conscientious-contact-form",
-            "version": "2.0.0",
+            "version": "2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/conscientious-contact-form.git",
-                "reference": "8105db488dea27a3c632fbbcce9b2b71ec43512a"
+                "reference": "17b83aa64c589bef5d9f86f545004166812d1de9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/conscientious-contact-form/zipball/8105db488dea27a3c632fbbcce9b2b71ec43512a",
-                "reference": "8105db488dea27a3c632fbbcce9b2b71ec43512a",
+                "url": "https://api.github.com/repos/dashifen/conscientious-contact-form/zipball/17b83aa64c589bef5d9f86f545004166812d1de9",
+                "reference": "17b83aa64c589bef5d9f86f545004166812d1de9",
                 "shasum": ""
             },
             "require": {
@@ -604,10 +604,10 @@
             ],
             "description": "A WordPress plugin that produces a contact form that can conscientiously either email or simply store messages in the database (or both).",
             "support": {
-                "source": "https://github.com/dashifen/conscientious-contact-form/tree/2.0.0",
+                "source": "https://github.com/dashifen/conscientious-contact-form/tree/2.2.1",
                 "issues": "https://github.com/dashifen/conscientious-contact-form/issues"
             },
-            "time": "2021-10-08T10:40:29+00:00"
+            "time": "2022-02-15T10:54:40+00:00"
         },
         {
             "name": "dashifen/dashifen2022",
@@ -777,12 +777,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/firefly-theme.git",
-                "reference": "194b412b751ffbd09fa410a3d1de1ee2a6ba6cad"
+                "reference": "eb18c12e88dd3d41bf3f0b6bec3f992b69d74152"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/firefly-theme/zipball/194b412b751ffbd09fa410a3d1de1ee2a6ba6cad",
-                "reference": "194b412b751ffbd09fa410a3d1de1ee2a6ba6cad",
+                "url": "https://api.github.com/repos/dashifen/firefly-theme/zipball/eb18c12e88dd3d41bf3f0b6bec3f992b69d74152",
+                "reference": "eb18c12e88dd3d41bf3f0b6bec3f992b69d74152",
                 "shasum": ""
             },
             "require": {
@@ -812,7 +812,7 @@
                 "source": "https://github.com/dashifen/firefly-theme/tree/main",
                 "issues": "https://github.com/dashifen/firefly-theme/issues"
             },
-            "time": "2022-02-14T19:04:51+00:00"
+            "time": "2022-02-15T11:15:09+00:00"
         },
         {
             "name": "dashifen/iliff-healers-videos",
