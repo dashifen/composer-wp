@@ -777,12 +777,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:dashifen/firefly-theme.git",
-                "reference": "6148b2a9f5738aaeb19c9735552cd939c74bd0fe"
+                "reference": "f511c11ce37ba966bf0d7f409ce5d9698a0f8cb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/firefly-theme/zipball/6148b2a9f5738aaeb19c9735552cd939c74bd0fe",
-                "reference": "6148b2a9f5738aaeb19c9735552cd939c74bd0fe",
+                "url": "https://api.github.com/repos/dashifen/firefly-theme/zipball/f511c11ce37ba966bf0d7f409ce5d9698a0f8cb2",
+                "reference": "f511c11ce37ba966bf0d7f409ce5d9698a0f8cb2",
                 "shasum": ""
             },
             "require": {
@@ -812,7 +812,7 @@
                 "source": "https://github.com/dashifen/firefly-theme/tree/main",
                 "issues": "https://github.com/dashifen/firefly-theme/issues"
             },
-            "time": "2022-02-15T14:26:41+00:00"
+            "time": "2022-03-01T12:21:20+00:00"
         },
         {
             "name": "dashifen/iliff-healers-videos",
@@ -1574,20 +1574,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "5.9.0",
+            "version": "5.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "6ada7243daf56881a1a09b5fbba60b993e38fa74"
+                "reference": "37734d678aac2d8cae73271583e638eaa82823d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/6ada7243daf56881a1a09b5fbba60b993e38fa74",
-                "reference": "6ada7243daf56881a1a09b5fbba60b993e38fa74",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/37734d678aac2d8cae73271583e638eaa82823d2",
+                "reference": "37734d678aac2d8cae73271583e638eaa82823d2",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "5.9.0",
+                "johnpbloch/wordpress-core": "5.9.1",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=5.6.20"
             },
@@ -1616,20 +1616,20 @@
                 "source": "http://core.trac.wordpress.org/browser",
                 "wiki": "http://codex.wordpress.org/"
             },
-            "time": "2022-01-25T20:11:11+00:00"
+            "time": "2022-02-22T15:31:51+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "5.9.0",
+            "version": "5.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "51241ed9138dd1fb552f6b85fc2025e6135fc03f"
+                "reference": "2c3acb773b91a72ab83ee039532d2c7e0b6f2127"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/51241ed9138dd1fb552f6b85fc2025e6135fc03f",
-                "reference": "51241ed9138dd1fb552f6b85fc2025e6135fc03f",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/2c3acb773b91a72ab83ee039532d2c7e0b6f2127",
+                "reference": "2c3acb773b91a72ab83ee039532d2c7e0b6f2127",
                 "shasum": ""
             },
             "require": {
@@ -1637,7 +1637,7 @@
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "5.9.0"
+                "wordpress/core-implementation": "5.9.1"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -1664,7 +1664,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2022-01-25T20:28:49+00:00"
+            "time": "2022-02-22T15:31:48+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -1825,12 +1825,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Ctype\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2494,15 +2494,15 @@
         },
         {
             "name": "wpackagist-plugin/coblocks",
-            "version": "2.21.6",
+            "version": "2.22.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/coblocks/",
-                "reference": "tags/2.21.6"
+                "reference": "tags/2.22.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/coblocks.2.21.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/coblocks.2.22.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -2584,15 +2584,15 @@
         },
         {
             "name": "wpackagist-plugin/themeisle-companion",
-            "version": "2.10.10",
+            "version": "2.10.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/themeisle-companion/",
-                "reference": "tags/2.10.10"
+                "reference": "tags/2.10.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/themeisle-companion.2.10.10.zip"
+                "url": "https://downloads.wordpress.org/plugin/themeisle-companion.2.10.11.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -2638,15 +2638,15 @@
         },
         {
             "name": "wpackagist-theme/neve",
-            "version": "3.1.5",
+            "version": "3.1.6",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/neve/",
-                "reference": "3.1.5"
+                "reference": "3.1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/neve.3.1.5.zip"
+                "url": "https://downloads.wordpress.org/theme/neve.3.1.6.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
