@@ -1,8 +1,7 @@
 {
   "name": "dashifen/dashifen.com",
   "description": "Composer based dev and deployment process for dashifen.com.",
-  "minimum-stability": "stable",
-  "type": "project",
+  "type": "wordpress-project",
   "license": "MIT",
   "authors": [
     {
@@ -42,35 +41,6 @@
     "wpackagist-theme/go": "^1.8.5",
     "wpackagist-theme/neve": "^3.6.6",
     "wpackagist-theme/twentytwenty": "^2.2"
-  },
-  "config": {
-    "optimize-autoloader": true,
-    "preferred-install": "dist",
-    "process-timeout": 300,
-    "sort-packages": true,
-    "vendor-dir": "public_html/wp-content/vendor",
-    "allow-plugins": {
-      "composer/installers": true,
-      "ffraenz/private-composer-installer": true,
-      "johnpbloch/wordpress-core-installer": true
-    }
-  },
-  "extra": {
-    "wordpress-install-dir": "public_html",
-    "installer-paths": {
-      "public_html/wp-content/plugins/{$name}/": [
-        "type:wordpress-plugin"
-      ],
-      "public_html/wp-content/themes/{$name}/": [
-        "type:wordpress-theme"
-      ],
-      "public_html/wp-content/mu-plugins/{$name}/": [
-        "type:wordpress-muplugin"
-      ],
-      "public_html/wp-content/{$name}": [
-        "type:wordpress-dropin"
-      ]
-    }
   },
   "repositories": [
     {
@@ -142,8 +112,37 @@
       "type": "vcs"
     }
   ],
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "process-timeout": 300,
+    "sort-packages": true,
+    "vendor-dir": "public_html/wp-content/vendor",
+    "allow-plugins": {
+      "composer/installers": true,
+      "ffraenz/private-composer-installer": true,
+      "johnpbloch/wordpress-core-installer": true
+    }
+  },
   "scripts": {
     "post-update-cmd": "cp public_html/wp-content/mu-plugins/mu-plugin-loader/mu-plugin-loader-loader.php public_html/wp-content/mu-plugins/mu-plugin-loader-loader.php",
     "reset": "rm -rf public_html && rm composer.lock"
+  },
+  "extra": {
+    "wordpress-install-dir": "public_html",
+    "installer-paths": {
+      "public_html/wp-content/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "public_html/wp-content/themes/{$name}/": [
+        "type:wordpress-theme"
+      ],
+      "public_html/wp-content/mu-plugins/{$name}/": [
+        "type:wordpress-muplugin"
+      ],
+      "public_html/wp-content/{$name}": [
+        "type:wordpress-dropin"
+      ]
+    }
   }
 }
