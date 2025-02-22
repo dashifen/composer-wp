@@ -11,36 +11,11 @@
     }
   ],
   "require": {
-    "advanced-custom-fields/advanced-custom-fields-pro": "*",
-    "dashifen/abbreviator": "^2.0",
-    "dashifen/acf-sharing-settings": "^2.1",
-    "dashifen/acf-contact-form": ">=0.10 <2.0",
-    "dashifen/anti-brute-squad": "^3.0.1",
-    "dashifen/ceremonies": "^2.0.1",
-    "dashifen/conscientious-contact-form": "^2.2.1",
-    "dashifen/dashifen2022": "dev-main",
-    "dashifen/deck-block": "^2.0",
-    "dashifen/firefly-theme": "dev-main",
-    "dashifen/iliffhealers": "^3.0",
-    "dashifen/iliff-healers-videos": "^2.2",
-    "dashifen/login-required": "^2.0",
-    "dashifen/mu-plugin-loader": "^2.0.1",
-    "dashifen/simple-events": "dev-main",
-    "dashifen/sr5-limit-calculator": "^2.0",
-    "jaybizzle/crawler-detect": "^1.2.116",
-    "johnpbloch/wordpress": "^6.2.2",
-    "timber/timber": "^1.22.1",
-    "wpackagist-plugin/advanced-forms": "^1.9.3.2",
+    "php": ">=8.4",
+    "dashifen/mu-plugin-loader": "^2.1",
+    "johnpbloch/wordpress": "^6.7",
     "wpackagist-plugin/multisite-enhancements": "^1.6.1",
-    "wpackagist-plugin/coblocks": "^3.0.4",
-    "wpackagist-plugin/enable-media-replace": "^4.1.2",
-    "wpackagist-plugin/otter-blocks": "^2.3.2",
-    "wpackagist-plugin/themeisle-companion": "^2.10.26",
-    "wpackagist-plugin/redirection": "^5.3.10",
-    "wpackagist-plugin/wordpress-importer": "^0.8.1",
-    "wpackagist-theme/go": "^1.8.5",
-    "wpackagist-theme/neve": "^3.6.6",
-    "wpackagist-theme/twentytwenty": "^2.2"
+    "wpackagist-plugin/wordpress-importer": "^0.8.1"
   },
   "repositories": [
     {
@@ -48,84 +23,20 @@
       "url": "https://wpackagist.org"
     },
     {
-      "type": "package",
-      "package": {
-        "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "5.11.4",
-        "type": "wordpress-plugin",
-        "dist": {
-          "type": "zip",
-          "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t={%version}"
-        },
-        "require": {
-          "composer/installers": "^1.4",
-          "ffraenz/private-composer-installer": "^5.0"
-        }
-      }
-    },
-    {
-      "url": "git@github.com:dashifen/abbreviator.git",
-      "type": "vcs"
-    },
-    {
-      "url": "git@github.com:dashifen/ceremonies.git",
-      "type": "vcs"
-    },
-    {
-      "url": "git@github.com:dashifen/conscientious-contact-form.git",
-      "type": "vcs"
-    },
-    {
-      "url": "git@github.com:dashifen/dashifen2022.git",
-      "type": "vcs"
-    },
-    {
-      "url": "git@github.com:dashifen/deck-block.git",
-      "type": "vcs"
-    },
-    {
-      "url": "git@github.com:dashifen/firefly-theme.git",
-      "type": "vcs"
-    },
-    {
-      "url": "git@github.com:dashifen/iliff-healers-theme.git",
-      "type": "vcs"
-    },
-    {
-      "url": "git@github.com:dashifen/iliff-healers-videos.git",
-      "type": "vcs"
-    },
-    {
-      "url": "git@github.com:dashifen/login-required.git",
-      "type": "vcs"
-    },
-    {
       "url": "git@github.com:dashifen/mu-plugin-loader.git",
-      "type": "vcs"
-    },
-    {
-      "url": "git@github.com:dashifen/simple-events.git",
-      "type": "vcs"
-    },
-    {
-      "url": "git@github.com:dashifen/sr5-limit-calculator.git",
-      "type": "vcs"
+      "type": "github"
     }
   ],
   "config": {
     "optimize-autoloader": true,
-    "preferred-install": "dist",
-    "process-timeout": 300,
     "sort-packages": true,
-    "vendor-dir": "public_html/wp-content/vendor",
     "allow-plugins": {
       "composer/installers": true,
-      "ffraenz/private-composer-installer": true,
       "johnpbloch/wordpress-core-installer": true
     }
   },
   "scripts": {
-    "post-update-cmd": "cp public_html/wp-content/mu-plugins/mu-plugin-loader/mu-plugin-loader-loader.php public_html/wp-content/mu-plugins/mu-plugin-loader-loader.php",
+    "post-update-cmd": "mv public_html/wp-content/mu-plugins/mu-plugin-loader/mu-plugin-loader-loader.php public_html/wp-content/mu-plugins/mu-plugin-loader-loader.php",
     "reset": "rm -rf public_html && rm composer.lock"
   },
   "extra": {
