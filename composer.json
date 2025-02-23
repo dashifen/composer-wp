@@ -47,18 +47,10 @@
   "extra": {
     "wordpress-install-dir": "public_html",
     "installer-paths": {
-      "public_html/wp-content/plugins/{$name}/": [
-        "type:wordpress-plugin"
-      ],
-      "public_html/wp-content/themes/{$name}/": [
-        "type:wordpress-theme"
-      ],
-      "public_html/wp-content/mu-plugins/{$name}/": [
-        "type:wordpress-muplugin"
-      ],
-      "public_html/wp-content/{$name}": [
-        "type:wordpress-dropin"
-      ]
+      "public_html/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+      "public_html/wp-content/themes/{$name}/": ["type:wordpress-theme"],
+      "public_html/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "public_html/wp-content/{$name}": ["type:wordpress-dropin"]
     }
   }
 }
