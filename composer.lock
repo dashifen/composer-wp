@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "622ef7aa64ef1a20694f7d65cd7d0c21",
+    "content-hash": "c8e67ed173ed93d9e269aaf0b7cfffa4",
     "packages": [
         {
             "name": "composer/installers",
@@ -657,6 +657,47 @@
                 "issues": "https://github.com/dashifen/sr5-limit-calc/issues"
             },
             "time": "2025-02-23T00:02:35+00:00"
+        },
+        {
+            "name": "dashifen/stop-auto-updates",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dashifen/stop-auto-updates.git",
+                "reference": "9aff845288c761f62c28e309b2ca169761e548d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dashifen/stop-auto-updates/zipball/9aff845288c761f62c28e309b2ca169761e548d5",
+                "reference": "9aff845288c761f62c28e309b2ca169761e548d5",
+                "shasum": ""
+            },
+            "require": {
+                "dashifen/wp-handler": "^11.0",
+                "php": ">=8.2"
+            },
+            "type": "wordpress-muplugin",
+            "autoload": {
+                "psr-4": {
+                    "Dashifen\\WordPress\\Plugins\\MustUse\\StopAutoUpdates\\": "/src"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "David Dashifen Kees (they/them)",
+                    "email": "dashifen@dashifen.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "A WP mu-plugin that prevents the automatic updating of plugins and themes.",
+            "support": {
+                "source": "https://github.com/dashifen/stop-auto-updates/tree/1.0.0",
+                "issues": "https://github.com/dashifen/stop-auto-updates/issues"
+            },
+            "time": "2025-02-24T00:58:10+00:00"
         },
         {
             "name": "dashifen/transformer",

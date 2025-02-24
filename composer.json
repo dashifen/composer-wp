@@ -19,18 +19,20 @@
     "dashifen/firefly-theme": "dev-main",
     "dashifen/mu-plugin-loader": "^2.1",
     "dashifen/sr5-limit-calc": "^2.1",
+    "dashifen/stop-auto-updates": "^1.0",
     "johnpbloch/wordpress": "^6.7",
     "wpackagist-plugin/multisite-enhancements": "^1.6.1",
     "wpackagist-plugin/wordpress-importer": "^0.8.1"
   },
   "repositories": [
-    { "url": "https://wpackagist.org",                       "type": "composer" },
-    { "url": "git@github.com:dashifen/abbreviator.git",      "type": "github"   },
-    { "url": "git@github.com:dashifen/cc-form.git",          "type": "github"   },
-    { "url": "git@github.com:dashifen/firefly-theme.git",    "type": "github"   },
-    { "url": "git@github.com:dashifen/dashifen-2025.git",    "type": "github"   },
-    { "url": "git@github.com:dashifen/mu-plugin-loader.git", "type": "github"   },
-    { "url": "git@github.com:dashifen/sr5-limit-calc.git",   "type": "github"   }
+    { "url": "https://wpackagist.org",                        "type": "composer" },
+    { "url": "git@github.com:dashifen/abbreviator.git",       "type": "github"   },
+    { "url": "git@github.com:dashifen/cc-form.git",           "type": "github"   },
+    { "url": "git@github.com:dashifen/firefly-theme.git",     "type": "github"   },
+    { "url": "git@github.com:dashifen/dashifen-2025.git",     "type": "github"   },
+    { "url": "git@github.com:dashifen/mu-plugin-loader.git",  "type": "github"   },
+    { "url": "git@github.com:dashifen/sr5-limit-calc.git",    "type": "github"   },
+    { "url": "git@github.com:dashifen/stop-auto-updates.git", "type": "github"   }
   ],
   "config": {
     "optimize-autoloader": true,
