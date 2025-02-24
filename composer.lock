@@ -195,16 +195,16 @@
         },
         {
             "name": "dashifen/anti-brute-squad",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/wp-mu-plugin-anti-brute-squad.git",
-                "reference": "1c03f026a737f2037d28152661622049599163d6"
+                "reference": "1d9f5100cb517f2f27757d12439000646cc8a530"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/wp-mu-plugin-anti-brute-squad/zipball/1c03f026a737f2037d28152661622049599163d6",
-                "reference": "1c03f026a737f2037d28152661622049599163d6",
+                "url": "https://api.github.com/repos/dashifen/wp-mu-plugin-anti-brute-squad/zipball/1d9f5100cb517f2f27757d12439000646cc8a530",
+                "reference": "1d9f5100cb517f2f27757d12439000646cc8a530",
                 "shasum": ""
             },
             "require": {
@@ -230,9 +230,9 @@
             "description": "A WordPress MU plugin that prevents brute force attacks by limiting the number of failed login attempts during a browser session.",
             "support": {
                 "issues": "https://github.com/dashifen/wp-mu-plugin-anti-brute-squad/issues",
-                "source": "https://github.com/dashifen/wp-mu-plugin-anti-brute-squad/tree/3.1.0"
+                "source": "https://github.com/dashifen/wp-mu-plugin-anti-brute-squad/tree/3.1.1"
             },
-            "time": "2025-02-22T22:40:08+00:00"
+            "time": "2025-02-24T00:45:02+00:00"
         },
         {
             "name": "dashifen/case-changing-trait",
@@ -532,16 +532,16 @@
         },
         {
             "name": "dashifen/mu-plugin-loader",
-            "version": "2.2.2",
+            "version": "2.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/mu-plugin-loader.git",
-                "reference": "2820927ce27416b4f378eb7d96bec1c158053881"
+                "reference": "b846787500881a43c7834e831aece79a0bb15f6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/mu-plugin-loader/zipball/2820927ce27416b4f378eb7d96bec1c158053881",
-                "reference": "2820927ce27416b4f378eb7d96bec1c158053881",
+                "url": "https://api.github.com/repos/dashifen/mu-plugin-loader/zipball/b846787500881a43c7834e831aece79a0bb15f6c",
+                "reference": "b846787500881a43c7834e831aece79a0bb15f6c",
                 "shasum": ""
             },
             "require": {
@@ -570,10 +570,10 @@
             ],
             "description": "A WP mu-plugin that loads other mu-plugins.",
             "support": {
-                "source": "https://github.com/dashifen/mu-plugin-loader/tree/2.2.2",
+                "source": "https://github.com/dashifen/mu-plugin-loader/tree/2.2.4",
                 "issues": "https://github.com/dashifen/mu-plugin-loader/issues"
             },
-            "time": "2025-02-22T22:31:28+00:00"
+            "time": "2025-02-24T00:46:52+00:00"
         },
         {
             "name": "dashifen/repository",
