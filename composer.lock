@@ -493,12 +493,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:dashifen/firefly-theme.git",
-                "reference": "09a334d6b90b4d19e86c194c5ebc68b51be955c2"
+                "reference": "0b223a6041e99cc1c41c71e4369bdbaa2b1849b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/firefly-theme/zipball/09a334d6b90b4d19e86c194c5ebc68b51be955c2",
-                "reference": "09a334d6b90b4d19e86c194c5ebc68b51be955c2",
+                "url": "https://api.github.com/repos/dashifen/firefly-theme/zipball/0b223a6041e99cc1c41c71e4369bdbaa2b1849b1",
+                "reference": "0b223a6041e99cc1c41c71e4369bdbaa2b1849b1",
                 "shasum": ""
             },
             "require": {
@@ -528,7 +528,7 @@
                 "source": "https://github.com/dashifen/firefly-theme/tree/main",
                 "issues": "https://github.com/dashifen/firefly-theme/issues"
             },
-            "time": "2025-02-22T23:00:25+00:00"
+            "time": "2025-02-25T23:36:02+00:00"
         },
         {
             "name": "dashifen/mu-plugin-loader",

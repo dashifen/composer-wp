@@ -10,6 +10,11 @@
       "role": "developer"
     }
   ],
+  "autoload": {
+    "psr-4": {
+      "Dashifen\\WordPress\\Build\\": "scripts"
+    }
+  },
   "require": {
     "php": ">=8.4",
     "dashifen/abbreviator": "^2.1",
@@ -43,8 +48,8 @@
     }
   },
   "scripts": {
-    "post-update-cmd": "cp public_html/wp-content/mu-plugins/mu-plugin-loader/mu-plugin-loader-loader.php public_html/wp-content/mu-plugins/mu-plugin-loader-loader.php",
-    "reset": "rm -rf public_html && rm composer.lock"
+    "reset": "rm -rf public_html && rm composer.lock",
+    "post-update-cmd": "php scripts/PostUpdate.php"
   },
   "extra": {
     "wordpress-install-dir": "public_html",
