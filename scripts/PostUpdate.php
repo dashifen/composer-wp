@@ -21,7 +21,9 @@ class PostUpdate
    */
   public function __construct()
   {
-    $this->root = realpath(__DIR__ . '/..');
+    // we're in the scripts folder; the root of our project is one folder up.
+    
+    $this->root = dirname(__DIR__);
   }
   
   /**
@@ -43,8 +45,8 @@ class PostUpdate
    */
   private function setupMuLoader(): void
   {
-    $muSource = 'public_html/wp-content/mu-plugins/mu-plugin-loader/mu-plugin-loader-loader.php';
-    $muDestination = 'public_html/wp-content/mu-plugins/mu-plugin-loader-loader.php';
+    $muSource = 'staging/wp-content/mu-plugins/mu-plugin-loader/mu-plugin-loader-loader.php';
+    $muDestination = 'staging/wp-content/mu-plugins/mu-plugin-loader-loader.php';
     copy($muSource, $muDestination);
   }
   
@@ -55,12 +57,12 @@ class PostUpdate
    */
   private function removeUnusedPlugins(): void
   {
-    if(is_dir($this->root . '/public_html/wp-content/plugins/akismet')) {
-      $this->removeDirectory($this->root . '/public_html/wp-content/plugins/akismet');
+    if(is_dir($this->root . '/staging/wp-content/plugins/akismet')) {
+      $this->removeDirectory($this->root . '/staging/wp-content/plugins/akismet');
     }
     
-    if (is_file($this->root . '/public_html/wp-content/plugins/hello.php')) {
-      unlink($this->root . '/public_html/wp-content/plugins/hello.php');
+    if (is_file($this->root . '/staging/wp-content/plugins/hello.php')) {
+      unlink($this->root . '/staging/wp-content/plugins/hello.php');
     }
   }
   
@@ -83,7 +85,7 @@ class PostUpdate
    */
   private function removeUnusedThemes(): void
   {
-    chdir($this->root .'/public_html/wp-content/themes');
+    chdir($this->root .'/staging/wp-content/themes');
     foreach(glob('twenty*', GLOB_ONLYDIR) as $theme) {
       $this->removeDirectory(getcwd() . DIRECTORY_SEPARATOR . $theme);
     }

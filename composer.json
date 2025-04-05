@@ -17,26 +17,24 @@
   },
   "require": {
     "php": ">=8.4",
-    "dashifen/abbreviator": "^2.1",
+    "dashifen/abbreviator": "^3.0",
     "dashifen/anti-brute-squad": "^3.1",
-    "dashifen/cc-form": "^2.3",
+    "dashifen/contact-form": "^3.0",
     "dashifen/dashifen-2025": "dev-main",
     "dashifen/firefly-theme": "dev-main",
     "dashifen/mu-plugin-loader": "^2.1",
-    "dashifen/sr5-limit-calc": "^2.1",
     "dashifen/stop-auto-updates": "^1.0",
     "johnpbloch/wordpress": "^6.7",
-    "wpackagist-plugin/multisite-enhancements": "^1.6.1",
-    "wpackagist-plugin/wordpress-importer": "^0.8.1"
+    "wpackagist-plugin/multisite-enhancements": "^1.6",
+    "wpackagist-plugin/wordpress-importer": "^0.8"
   },
   "repositories": [
     { "url": "https://wpackagist.org",                        "type": "composer" },
     { "url": "git@github.com:dashifen/abbreviator.git",       "type": "github"   },
-    { "url": "git@github.com:dashifen/cc-form.git",           "type": "github"   },
+    { "url": "git@github.com:dashifen/contact-form.git",      "type": "github"   },
     { "url": "git@github.com:dashifen/firefly-theme.git",     "type": "github"   },
     { "url": "git@github.com:dashifen/dashifen-2025.git",     "type": "github"   },
     { "url": "git@github.com:dashifen/mu-plugin-loader.git",  "type": "github"   },
-    { "url": "git@github.com:dashifen/sr5-limit-calc.git",    "type": "github"   },
     { "url": "git@github.com:dashifen/stop-auto-updates.git", "type": "github"   }
   ],
   "config": {
@@ -52,12 +50,12 @@
     "post-update-cmd": "php scripts/PostUpdate.php"
   },
   "extra": {
-    "wordpress-install-dir": "public_html",
+    "wordpress-install-dir": "staging",
     "installer-paths": {
-      "public_html/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
-      "public_html/wp-content/themes/{$name}/": ["type:wordpress-theme"],
-      "public_html/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "public_html/wp-content/{$name}": ["type:wordpress-dropin"]
+      "staging/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+      "staging/wp-content/themes/{$name}/": ["type:wordpress-theme"],
+      "staging/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "staging/wp-content/{$name}": ["type:wordpress-dropin"]
     }
   }
 }

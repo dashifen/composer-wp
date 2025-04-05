@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c8e67ed173ed93d9e269aaf0b7cfffa4",
+    "content-hash": "c05c4f03d81673a3ececba0f9dae319e",
     "packages": [
         {
             "name": "composer/installers",
@@ -154,22 +154,21 @@
         },
         {
             "name": "dashifen/abbreviator",
-            "version": "2.1.0",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/abbreviator.git",
-                "reference": "51efcd2ca2332a48e79b7006e9d637eef40db354"
+                "reference": "c605d6c793eb7a379b991b2a8b345db8c94c0ee2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/abbreviator/zipball/51efcd2ca2332a48e79b7006e9d637eef40db354",
-                "reference": "51efcd2ca2332a48e79b7006e9d637eef40db354",
+                "url": "https://api.github.com/repos/dashifen/abbreviator/zipball/c605d6c793eb7a379b991b2a8b345db8c94c0ee2",
+                "reference": "c605d6c793eb7a379b991b2a8b345db8c94c0ee2",
                 "shasum": ""
             },
             "require": {
                 "dashifen/wp-handler": "^11",
-                "php": ">=8.2",
-                "timber/timber": "^2"
+                "php": ">=8.2"
             },
             "type": "wordpress-plugin",
             "autoload": {
@@ -186,12 +185,12 @@
                     "email": "dashifen@dashifen.com"
                 }
             ],
-            "description": "A WordPress plugin that allows you to define abbreviations and their meaning which are automatically added to the content of a post when encountered for the first time.",
+            "description": "A WordPress plugin that allows you to add inline <abbr> tags to paragraph blocks.",
             "support": {
-                "source": "https://github.com/dashifen/abbreviator/tree/2.1.0",
+                "source": "https://github.com/dashifen/abbreviator/tree/3.0.0",
                 "issues": "https://github.com/dashifen/abbreviator/issues"
             },
-            "time": "2025-02-22T23:22:58+00:00"
+            "time": "2025-03-05T02:09:29+00:00"
         },
         {
             "name": "dashifen/anti-brute-squad",
@@ -276,49 +275,6 @@
             "time": "2021-04-07T12:54:46+00:00"
         },
         {
-            "name": "dashifen/cc-form",
-            "version": "2.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dashifen/cc-form.git",
-                "reference": "57192e90ec019e6a832d69956c2a0f985b5ebbc5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/cc-form/zipball/57192e90ec019e6a832d69956c2a0f985b5ebbc5",
-                "reference": "57192e90ec019e6a832d69956c2a0f985b5ebbc5",
-                "shasum": ""
-            },
-            "require": {
-                "dashifen/validator": "^3",
-                "dashifen/wp-handler": "^11",
-                "php": ">=8.2",
-                "timber/timber": "^2"
-            },
-            "type": "wordpress-plugin",
-            "autoload": {
-                "psr-4": {
-                    "Dashifen\\WordPress\\Plugins\\ConscientiousContactForm\\": "src"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "David Dashifen Kees",
-                    "email": "dashifen@dashifen.com",
-                    "role": "developer"
-                }
-            ],
-            "description": "A WordPress plugin that produces a contact form that can conscientiously either email or simply store messages in the database (or both).",
-            "support": {
-                "source": "https://github.com/dashifen/cc-form/tree/2.3.0",
-                "issues": "https://github.com/dashifen/cc-form/issues"
-            },
-            "time": "2025-02-22T23:34:30+00:00"
-        },
-        {
             "name": "dashifen/collection",
             "version": "3.0.0",
             "source": {
@@ -361,24 +317,70 @@
             "time": "2023-09-02T17:16:06+00:00"
         },
         {
+            "name": "dashifen/contact-form",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dashifen/contact-form.git",
+                "reference": "13d81fc0a4ef9e0d17e0ce652cdc996e0d2dd541"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dashifen/contact-form/zipball/13d81fc0a4ef9e0d17e0ce652cdc996e0d2dd541",
+                "reference": "13d81fc0a4ef9e0d17e0ce652cdc996e0d2dd541",
+                "shasum": ""
+            },
+            "require": {
+                "dashifen/data-transfer-object": "^1.1",
+                "dashifen/validator": "^3",
+                "dashifen/wp-handler": "^11",
+                "php": ">=8.4",
+                "timber/timber": "^2"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Dashifen\\WordPress\\Plugins\\ContactForm\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Dashifen Kees",
+                    "email": "dashifen@dashifen.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "A WordPress plugin that adds a contact form via a page template.",
+            "support": {
+                "source": "https://github.com/dashifen/contact-form/tree/3.0.0",
+                "issues": "https://github.com/dashifen/contact-form/issues"
+            },
+            "time": "2025-03-16T13:59:37+00:00"
+        },
+        {
             "name": "dashifen/dashifen-2025",
             "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/dashifen-2025.git",
-                "reference": "f2af17704a026f8f0678b7980972b5e8f3e19f28"
+                "reference": "2c4820f2fc8e08526f074df949b7b4b69081c2cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/dashifen-2025/zipball/f2af17704a026f8f0678b7980972b5e8f3e19f28",
-                "reference": "f2af17704a026f8f0678b7980972b5e8f3e19f28",
+                "url": "https://api.github.com/repos/dashifen/dashifen-2025/zipball/2c4820f2fc8e08526f074df949b7b4b69081c2cb",
+                "reference": "2c4820f2fc8e08526f074df949b7b4b69081c2cb",
                 "shasum": ""
             },
             "require": {
-                "dashifen/wp-handler": "^11",
-                "dashifen/wp-templates": "^6",
+                "dashifen/data-transfer-object": "^1.1",
+                "dashifen/wp-handler": "^11.0",
+                "dashifen/wp-templates": "^6.1",
+                "ext-dom": "*",
                 "php": ">=8.4",
-                "timber/timber": "^2"
+                "timber/timber": "^2.3"
             },
             "default-branch": true,
             "type": "wordpress-theme",
@@ -402,7 +404,50 @@
                 "source": "https://github.com/dashifen/dashifen-2025/tree/main",
                 "issues": "https://github.com/dashifen/dashifen-2025/issues"
             },
-            "time": "2025-02-22T02:27:57+00:00"
+            "time": "2025-03-18T23:15:14+00:00"
+        },
+        {
+            "name": "dashifen/data-transfer-object",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dashifen/data-transfer-object.git",
+                "reference": "74be2d882f2c196c9bb32e9d8d9ed795c004413b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dashifen/data-transfer-object/zipball/74be2d882f2c196c9bb32e9d8d9ed795c004413b",
+                "reference": "74be2d882f2c196c9bb32e9d8d9ed795c004413b",
+                "shasum": ""
+            },
+            "require": {
+                "dashifen/debugging": "^1.0",
+                "dashifen/exception": "^1.2",
+                "php": ">=8.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dashifen\\DTO\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "WTFPL"
+            ],
+            "authors": [
+                {
+                    "name": "David Dashifen Kees",
+                    "email": "dashifen@dashifen.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "An object that exists to transfer data.",
+            "support": {
+                "issues": "https://github.com/dashifen/data-transfer-object/issues",
+                "source": "https://github.com/dashifen/data-transfer-object/tree/1.2.1"
+            },
+            "time": "2025-03-16T15:39:47+00:00"
         },
         {
             "name": "dashifen/debugging",
@@ -577,21 +622,22 @@
         },
         {
             "name": "dashifen/repository",
-            "version": "4.0.0",
+            "version": "4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/repository.git",
-                "reference": "032cde0eaf6283377816cae340c84b299d6de779"
+                "reference": "abaa25b7b37bcf935c3ed8ba8ca48b439d2a13b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/repository/zipball/032cde0eaf6283377816cae340c84b299d6de779",
-                "reference": "032cde0eaf6283377816cae340c84b299d6de779",
+                "url": "https://api.github.com/repos/dashifen/repository/zipball/abaa25b7b37bcf935c3ed8ba8ca48b439d2a13b2",
+                "reference": "abaa25b7b37bcf935c3ed8ba8ca48b439d2a13b2",
                 "shasum": ""
             },
             "require": {
                 "dashifen/case-changing-trait": "^1",
                 "dashifen/exception": "^1",
+                "ext-json": "*",
                 "php": ">=8.2"
             },
             "type": "library",
@@ -602,7 +648,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "MIT"
+                "WTFPL"
             ],
             "authors": [
                 {
@@ -611,52 +657,12 @@
                     "role": "developer"
                 }
             ],
-            "description": "An object with read-only protected properties from which other objects can be extended.",
+            "description": "An object with read-only protected properties from which other objects can be extened.",
             "support": {
                 "issues": "https://github.com/dashifen/repository/issues",
-                "source": "https://github.com/dashifen/repository/tree/4.0.0"
+                "source": "https://github.com/dashifen/repository/tree/4.0.2"
             },
-            "time": "2023-09-05T17:51:39+00:00"
-        },
-        {
-            "name": "dashifen/sr5-limit-calc",
-            "version": "2.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dashifen/sr5-limit-calc.git",
-                "reference": "4dea72b332f090397a8f5e3393806de79880e3ea"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/sr5-limit-calc/zipball/4dea72b332f090397a8f5e3393806de79880e3ea",
-                "reference": "4dea72b332f090397a8f5e3393806de79880e3ea",
-                "shasum": ""
-            },
-            "require": {
-                "dashifen/wp-handler": "^11.0",
-                "php": ">=8.2"
-            },
-            "type": "wordpress-plugin",
-            "autoload": {
-                "psr-4": {
-                    "Dashifen\\WordPress\\Plugins\\Sr5LimitCalculator\\": "src"
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "David Dashifen Kees",
-                    "email": "dashifen@dashifen.com"
-                }
-            ],
-            "description": "A plugin that quickly calculates SR5 attribute limits.",
-            "support": {
-                "source": "https://github.com/dashifen/sr5-limit-calc/tree/2.1.0",
-                "issues": "https://github.com/dashifen/sr5-limit-calc/issues"
-            },
-            "time": "2025-02-23T00:02:35+00:00"
+            "time": "2025-03-07T15:28:51+00:00"
         },
         {
             "name": "dashifen/stop-auto-updates",
@@ -1556,15 +1562,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-importer",
-            "version": "0.8.3",
+            "version": "0.8.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
-                "reference": "tags/0.8.3"
+                "reference": "tags/0.8.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.8.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.8.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
